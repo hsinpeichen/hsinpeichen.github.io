@@ -51,7 +51,6 @@ title: CV
   color: #ffcc00 !important;
   }
 
-
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.webp') !important;
     background-size: cover !important;
@@ -88,6 +87,44 @@ title: CV
     font-size: 1.1em !important;
     margin: 15px 0 0 0 !important;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+  }
+
+    .back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #bf5700;
+    color: white !important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+    font-size: 24px;
+    z-index: 9999;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, background-color 0.3s;
+  }
+
+  .back-to-top:hover {
+    background-color: #8c4000;
+    transform: translateY(-5px);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media screen and (max-width: 768px) {
+    .back-to-top {
+      bottom: 20px;
+      right: 20px;
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+    }
   }
 
   .cv-section {
