@@ -78,8 +78,6 @@ title: Research
 
     <h3>Research Assistant Project at NCTS: Type Ia Supernova Progenitors and Surviving Companions within the Symbiotic Channel</h3>
 
-    <img src="research-sn.jpg" alt="Supernova Research" class="project-image">
-    <p class="image-credit">Image credit: NASA, ESA, Leah Hustak (STScI)</p>
 
     <p>
       After graduating in February 2023, I continued working as a Research Assistant at the National Center for Theoretical Science in Taiwan under the mentorship of Professor Pan. I embarked on my next project, exploring the systematic study of surviving companions in the symbiotic channel of type Ia supernovae. Our research revealed that the evolved companions could maintain their luminosity from before the SN explosion or transform into hot, bright dwarves. We have submitted the paper to ApJ, and it is currently under revision. Through these projects of simulations of supernovae, I have received solid training in conducting simulations using stellar evolution code MESA and hydrodynamics simulation code FLASH, and also have enhanced my abilities in problem solving, literature review, and scientific writing.
