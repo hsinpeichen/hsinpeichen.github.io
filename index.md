@@ -4,31 +4,46 @@ title: Home
 ---
 
 <style>
-  /* 1. 頂部區域設定：加入背景圖 */
+  /* 1. 讓 Header 背景全螢幕延伸，並移除 GitHub 連結 */
   header {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpeg') !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpg') !important;
     background-size: cover !important;
     background-position: center !important;
-    padding: 60px 0 !important; /* 增加上下間距讓背景更明顯 */
+    padding: 80px 0 !important;
     text-align: center;
+    
+    /* 核心：跳出原本容器的寬度限制 */
+    width: 100vw !important;
+    position: relative !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
   }
   
-  /* 2. 標題文字：改為白色以對比暗色背景 */
+  /* 隱藏主題自動產生的 GitHub 連結按鈕 */
+  header ul {
+    display: none !important;
+  }
+
+  /* 2. 標題與副標題樣式 */
   header h1 a {
     color: #ffffff !important; 
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8); /* 加入陰影增加可讀性 */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
     text-decoration: none !important;
     font-weight: bold;
+    font-size: 2.2em;
   }
   
   header p {
-    color: #dddddd !important; /* 副標題用淺灰色 */
+    color: #eeeeee !important;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
     font-size: 1.2em;
     margin-top: 10px;
+    margin-bottom: 0;
   }
 
-  /* 3. 導覽列樣式 (保持簡約) */
+  /* 3. 導覽列與主體內容 (維持在容器內) */
   .header-nav {
     text-align: center;
     padding: 20px 0;
@@ -38,16 +53,16 @@ title: Home
   .header-nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #bf5700; /* UT 橘點綴 */
+    color: #bf5700;
     font-weight: 500;
   }
   
-  /* 4. 個人簡介佈局 */
   .profile-container {
     display: flex;
     align-items: flex-start;
     gap: 40px;
     flex-wrap: wrap;
+    margin-top: 20px;
   }
   .profile-image {
     width: 250px;
