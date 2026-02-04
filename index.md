@@ -7,7 +7,7 @@ title: Home
   .wrapper {
     max-width: 1000px !important;
     margin: 0 auto !important;
-    padding:c 0 20px !important;
+    padding: 0 20px !important;
     float: none !important;
     display: flex;
     flex-direction: column;
@@ -135,6 +135,7 @@ title: Home
   }
   .profile-text {
     text-align: center;
+  }
   }
 
   footer {
