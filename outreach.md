@@ -103,11 +103,11 @@ title: Outreach
 
     <h3>Astronomy for the Public in Austin (2024-Current)</h3>
 
-    <img src="photos/outreach-aotatx.jpg" alt="AoT in Austin" class="blog-image">
+    <img src="photos/outreach-aotatx.jpeg" alt="AoT in Austin" class="blog-image">
 
     <p>
       As an international student who left my home country at the age of 26, I am currently learning to engage with the local community in Austin, TX by regularly attending Astronomy on Tap ATX events. My goal is to give at least one public talk before I graduate in 2029. Hopefully more!
     </p>
-
+    </div>
   </div>
 </div>
