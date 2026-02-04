@@ -4,46 +4,54 @@ title: Home
 ---
 
 <style>
-  /* 1. 讓 Header 背景全螢幕延伸，並移除 GitHub 連結 */
+  /* 1. 修正 Header 背景：全寬延伸但限制內容 */
   header {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpeg') !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpg') !important;
     background-size: cover !important;
     background-position: center !important;
-    padding: 80px 0 !important;
+    padding: 60px 20px !important; /* 增加左右內距 */
     text-align: center;
     
-    /* 核心：跳出原本容器的寬度限制 */
+    /* 讓背景圖跳出容器邊界 */
     width: 100vw !important;
     position: relative !important;
     left: 50% !important;
-    right: 50% !important;
-    margin-left: -50vw !important;
-    margin-right: -50vw !important;
+    transform: translateX(-50%) !important;
+    margin: 0 !important;
+    box-sizing: border-box;
   }
   
-  /* 隱藏主題自動產生的 GitHub 連結按鈕 */
+  /* 徹底移除頂端 GitHub 按鈕 */
   header ul {
     display: none !important;
   }
 
-  /* 2. 標題與副標題樣式 */
+  /* 2. 修正標題字體：設定更穩定的尺寸 */
+  header h1 {
+    margin: 0 auto !important;
+    max-width: 800px;
+  }
+
   header h1 a {
     color: #ffffff !important; 
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
     text-decoration: none !important;
     font-weight: bold;
-    font-size: 2.2em;
+    font-size: 1.8em !important; /* 調降字體大小 */
+    line-height: 1.2 !important;
+    display: block;
   }
   
   header p {
     color: #eeeeee !important;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
-    font-size: 1.2em;
-    margin-top: 10px;
-    margin-bottom: 0;
+    font-size: 1.1em !important; /* 調降副標題字體 */
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+    font-weight: 300;
   }
 
-  /* 3. 導覽列與主體內容 (維持在容器內) */
+  /* 3. 導覽列與內文 (維持原樣) */
   .header-nav {
     text-align: center;
     padding: 20px 0;
@@ -51,10 +59,11 @@ title: Home
     border-bottom: 1px solid #eee;
   }
   .header-nav a {
-    margin: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
     color: #bf5700;
     font-weight: 500;
+    font-size: 0.95em;
   }
   
   .profile-container {
@@ -65,8 +74,8 @@ title: Home
     margin-top: 20px;
   }
   .profile-image {
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #fff;
