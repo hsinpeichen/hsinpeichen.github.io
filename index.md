@@ -4,33 +4,38 @@ title: Home
 ---
 
 <style>
-  /* 強制隱藏頂部主題自動產生的 GitHub 連結列表/按鈕 */
-  header ul {
+  /* 1. 徹底隱藏所有主題自動生成的按鈕與連結 (包含 GitHub Profile) */
+  header ul, 
+  header .github-button, 
+  header .view, 
+  header .buttons {
     display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
   
-  /* 確保標題與副標題在沒有按鈕的情況下依然居中且美觀 */
+  /* 2. 取消名字標題的連結效果（變回純文字） */
   header h1 a {
-    color: #ffffff !important;
+    pointer-events: none !important; /* 禁止點擊 */
+    cursor: default !important;     /* 鼠標不變手型 */
+    color: #ffffff !important; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
     text-decoration: none !important;
     font-weight: bold;
     font-size: 1.8em !important;
+    line-height: 1.2 !important;
+    display: block;
   }
-  
-  header p {
-    color: #eeeeee !important;
-    font-size: 1.1em !important;
-    margin-bottom: 0 !important;
-  }
-  /* 1. 修正 Header 背景：全寬延伸但限制內容 */
+
+  /* 3. 背景圖與 Header 寬度設定 */
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpeg') !important;
     background-size: cover !important;
     background-position: center !important;
-    padding: 60px 20px !important; /* 增加左右內距 */
+    padding: 60px 20px !important;
     text-align: center;
-    
-    /* 讓背景圖跳出容器邊界 */
     width: 100vw !important;
     position: relative !important;
     left: 50% !important;
@@ -38,38 +43,18 @@ title: Home
     margin: 0 !important;
     box-sizing: border-box;
   }
-  
-  /* 徹底移除頂端 GitHub 按鈕 */
-  header ul {
-    display: none !important;
-  }
 
-  /* 2. 修正標題字體：設定更穩定的尺寸 */
-  header h1 {
-    margin: 0 auto !important;
-    max-width: 800px;
-  }
-
-  header h1 a {
-    color: #ffffff !important; 
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-    text-decoration: none !important;
-    font-weight: bold;
-    font-size: 1.8em !important; /* 調降字體大小 */
-    line-height: 1.2 !important;
-    display: block;
-  }
-  
+  /* 修正副標題樣式 */
   header p {
     color: #eeeeee !important;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
-    font-size: 1.1em !important; /* 調降副標題字體 */
+    font-size: 1.1em !important;
     margin-top: 10px !important;
     margin-bottom: 0 !important;
     font-weight: 300;
   }
 
-  /* 3. 導覽列與內文 (維持原樣) */
+  /* 4. 導覽列樣式 (調整為 UT 橘色) */
   .header-nav {
     text-align: center;
     padding: 20px 0;
@@ -83,7 +68,8 @@ title: Home
     font-weight: 500;
     font-size: 0.95em;
   }
-  
+
+  /* 個人簡介佈局 */
   .profile-container {
     display: flex;
     align-items: flex-start;
