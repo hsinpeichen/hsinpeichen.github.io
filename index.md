@@ -4,36 +4,45 @@ title: Home
 ---
 
 <style>
-  /* 1. 頂部區域設定：白底、黑標題、灰副標 */
+  /* 1. 頂部區域設定：加入背景圖 */
   header {
-    background: #ffffff !important;
-    border-bottom: 1px solid #eee;
-    padding: 30px 0 !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpeg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 60px 0 !important; /* 增加上下間距讓背景更明顯 */
+    text-align: center;
   }
+  
+  /* 2. 標題文字：改為白色以對比暗色背景 */
   header h1 a {
-    color: #000000 !important; /* 名字黑色 */
+    color: #ffffff !important; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8); /* 加入陰影增加可讀性 */
     text-decoration: none !important;
     font-weight: bold;
   }
+  
   header p {
-    color: #666666 !important; /* 副標題灰色 */
-    font-size: 1.1em;
+    color: #dddddd !important; /* 副標題用淺灰色 */
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    font-size: 1.2em;
+    margin-top: 10px;
   }
 
-  /* 2. 導覽列樣式 */
+  /* 3. 導覽列樣式 (保持簡約) */
   .header-nav {
     text-align: center;
     padding: 20px 0;
     margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
   }
   .header-nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #bf5700; /* 保持 UT 橘作為點綴色 */
+    color: #bf5700; /* UT 橘點綴 */
     font-weight: 500;
   }
   
-  /* 3. 個人簡介佈局 */
+  /* 4. 個人簡介佈局 */
   .profile-container {
     display: flex;
     align-items: flex-start;
@@ -45,7 +54,8 @@ title: Home
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    border: 1px solid #eee;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
   .profile-text {
     flex: 1;
