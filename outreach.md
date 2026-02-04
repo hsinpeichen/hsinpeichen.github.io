@@ -24,35 +24,28 @@ title: Outreach
     margin: 0 auto;
     padding: 20px;
   }
-  .outreach-sidebar {
-    flex: 1;
-    min-width: 200px;
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #333;
-  }
-  .outreach-content {
-    flex: 3;
-    min-width: 300px;
-  }
 
-  /* 圖片網格排版 (Image Gallery) */
+  /* 圖片排列調整：改為垂直堆疊以顯示完整比例 */
   .image-gallery {
     display: flex;
-    gap: 10px; /* 圖片之間的間距 */
+    flex-direction: column; /* 強制垂直排列 */
+    gap: 20px; /* 增加圖片間的間距 */
     margin: 20px 0;
-    flex-wrap: wrap; /* 手機版自動換行 */
   }
+  
   .gallery-item {
-    flex: 1;
-    min-width: 250px; /* 確保手機上不會縮得太小 */
+    width: 100%; /* 寬度佔滿容器 */
+    max-width: 600px; /* 限制最大寬度防止圖片過大，您可以根據喜好調整 */
+    margin: 0 auto; /* 圖片置中 */
   }
+  
   .gallery-item img {
     width: 100%;
-    height: 200px; /* 固定高度讓圖片整齊 */
-    object-fit: cover; /* 裁切圖片以填滿空間而不變形 */
+    height: auto; /* 【關鍵】讓高度隨比例自動調整，不裁切圖片 */
+    display: block;
     border: 1px solid #ddd;
     border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 加入輕微陰影增加質感 */
   }
 </style>
 
