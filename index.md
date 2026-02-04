@@ -47,8 +47,8 @@ title: Home
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.jpeg') !important;
     background-size: cover !important;
-    background-position: center !important;
-    padding: 80px 0 !important;
+    background-position: bottom !important;
+    padding: 60px 0 !important;
     text-align: center !important;
     width: 100vw !important;
     position: relative !important;
