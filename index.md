@@ -49,14 +49,13 @@ title: Home
     background-size: cover !important;
     background-position: center !important;
     padding: 4.5px 0 !important;
-    margin: 0 0 25px 0 !important;
     text-align: center !important;
     
     width: 100vw !important;
     position: relative !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
-    margin: 0 0 40px 0 !important;
+    margin: 0 0 20px 0 !important;
     float: none !important;
   }
 
@@ -72,7 +71,7 @@ title: Home
   header h1 a {
     color: #ffffff !important;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-    font-size: 2.2em !important;
+    font-size: 1.5em !important;
     font-weight: bold !important;
     pointer-events: none !important;
   }
