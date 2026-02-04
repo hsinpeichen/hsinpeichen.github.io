@@ -4,21 +4,19 @@ title: Home
 ---
 
 <style>
-  /* 1. 設定頂部橫幅背景為 UT 橘色，並確保文字為白色 */
-  header {
-    background-color: #bf5700 !important;
-    padding: 20px 0;
-  }
   header h1 a {
     color: #ffffff !important;
-    font-weight: bold;
-    text-decoration: none;
+    text-decoration: none !important;
   }
   header p {
-    color: #f8f8f8 !important;
+    color: #ffffff !important;
+    opacity: 0.9;
+  }
+  
+  header ul {
+    display: none !important;
   }
 
-  /* 2. 導覽列樣式微調 */
   .header-nav {
     text-align: center;
     border-bottom: 1px solid #eee;
@@ -30,28 +28,6 @@ title: Home
     text-decoration: none;
     color: #bf5700;
     font-weight: 500;
-  }
-  
-  /* 3. 個人簡介區塊佈局 */
-  .profile-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 40px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-  }
-  .profile-image {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #eee;
-  }
-  .profile-text {
-    flex: 1;
-    min-width: 300px;
-    line-height: 1.7;
-    color: #333;
   }
 </style>
 
@@ -75,6 +51,8 @@ title: Home
     <div style="margin-top: 30px;">
         <a href="https://github.com/hsinpeichen" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold;">GitHub Profile</a>
         <a href="mailto:hpchen@utexas.edu" style="color: #bf5700; text-decoration: none; font-weight: bold;">Email Me</a>
+        <a href="https://www.name-coach.com/hsin-pei-chen-74e4f5c1-32b1-4295-a372-db0a15b96573" target="_blank" style="color: #bf5700; text-decoration: none; font-weight: bold; display: flex; align-items: center; gap: 5px;">
+        <span style="font-size: 1.2em;">🔊</span> Listen to my name
     </div>
   </div>
 </div>
