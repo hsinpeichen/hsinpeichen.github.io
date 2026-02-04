@@ -92,6 +92,24 @@ title: Home
   .profile-text strong {
     color: #bf5700;
   }
+
+  .contact-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .contact-links a {
+    font-size: 1.1em;
+    padding: 8px 20px;
+    border: 1px solid #bf5700;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .contact-links a:hover {
+    background-color: #bf5700;
+    color: white !important;
+  }
 </style>
 
 <div class="header-nav">
