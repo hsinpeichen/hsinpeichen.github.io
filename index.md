@@ -6,7 +6,7 @@ title: Home
 <style>
   /* 1. 修正 Header 背景：全寬延伸但限制內容 */
   header {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpg') !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpeg') !important;
     background-size: cover !important;
     background-position: center !important;
     padding: 60px 20px !important; /* 增加左右內距 */
