@@ -48,9 +48,8 @@ title: Home
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.jpeg') !important;
     background-size: cover !important;
     background-position: center !important;
-    padding: 4.5px 0 !important;
+    padding: 8px 0 !important;
     text-align: center !important;
-    
     width: 100vw !important;
     position: relative !important;
     left: 50% !important;
@@ -113,7 +112,7 @@ title: Home
 
   .profile-text {
     flex: 7;
-    font-size: 1.1em;
+    font-size: 0.9em;
     line-height: 1.6;
     color: #333;
     text-align: left;
@@ -123,7 +122,7 @@ title: Home
   .profile-text strong {
     color: #bf5700;
   }
-  
+
   @media screen and (max-width: 768px) {
   .profile-container {
     flex-direction: column;
