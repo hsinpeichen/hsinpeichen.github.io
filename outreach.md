@@ -23,17 +23,19 @@ title: Outreach
     flex: 1;
   }
   .header-nav {
-    position: absolute;
-    top: 10px;
+    position: fixed;
+    top: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 1000;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10px 0;
+    background: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
     margin-bottom: 20px;
-    border-bottom: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     width: 100%;
   }
 
@@ -47,6 +49,7 @@ title: Outreach
   .header-nav a:hover {
   color: #ffcc00 !important;
   }
+
 
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.webp') !important;
