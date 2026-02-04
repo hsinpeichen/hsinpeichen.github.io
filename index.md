@@ -118,7 +118,7 @@ title: Home
 
   .profile-text {
     flex: 7;
-    font-size: 1.0em;
+    font-size: 0.9em;
     line-height: 1.6;
     color: #333;
     text-align: justify !important;
