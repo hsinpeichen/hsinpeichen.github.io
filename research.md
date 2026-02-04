@@ -3,19 +3,6 @@ layout: default
 title: Research
 ---
 
-太棒了！既然 index.md 的全寬星空背景已經完美達成，要把這個效果同步到 research.md、cv.md 和 outreach.md，我們只需要把那段「終極 Header CSS」複製過去，並微調一下原本頁面的佈局。
-
-以下是針對 research.md 的修改範本，你可以依此類推到其他頁面：
-
-1. 修改 research.md (範例)
-請將原本的 <style> 區塊替換如下。我保留了你原本的研究佈局（分欄、按鈕等），只更新了頂部 Header 的部分：
-
-Markdown
----
-layout: default
-title: Research
----
-
 <style>
   /* --- 1. 頂部全寬 Header 樣式 (與首頁同步) --- */
   header {
