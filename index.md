@@ -4,30 +4,54 @@ title: Home
 ---
 
 <style>
+  /* 1. 頂部區域設定：白底、黑標題、灰副標 */
+  header {
+    background: #ffffff !important;
+    border-bottom: 1px solid #eee;
+    padding: 30px 0 !important;
+  }
   header h1 a {
-    color: #ffffff !important;
+    color: #000000 !important; /* 名字黑色 */
     text-decoration: none !important;
+    font-weight: bold;
   }
   header p {
-    color: #ffffff !important;
-    opacity: 0.9;
-  }
-  
-  header ul {
-    display: none !important;
+    color: #666666 !important; /* 副標題灰色 */
+    font-size: 1.1em;
   }
 
+  /* 2. 導覽列樣式 */
   .header-nav {
     text-align: center;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 15px;
-    margin-bottom: 30px;
+    padding: 20px 0;
+    margin-bottom: 20px;
   }
   .header-nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #bf5700;
+    color: #bf5700; /* 保持 UT 橘作為點綴色 */
     font-weight: 500;
+  }
+  
+  /* 3. 個人簡介佈局 */
+  .profile-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #eee;
+  }
+  .profile-text {
+    flex: 1;
+    min-width: 300px;
+    line-height: 1.7;
+    color: #333;
   }
 </style>
 
