@@ -87,10 +87,15 @@ title: Outreach
   }
 
   .outreach-section {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
   }
+
   .outreach-sidebar {
     flex: 1;
     min-width: 150px;
@@ -98,9 +103,16 @@ title: Outreach
     font-weight: bold;
     color: #333;
   }
+
   .outreach-content {
     flex: 3;
     min-width: 300px;
+  }
+
+  .outreach-content p {
+    text-align: justify !important;
+    text-justify: inter-word;
+    hyphens: auto;
   }
 
   .image-gallery {
