@@ -25,7 +25,8 @@ title: Home
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('photos/website-bg.jpeg') !important;
     background-size: cover !important;
     background-position: center !important;
-    padding: 80px 0 !important; /* 增加上下間距 */
+    padding: 40px 0 !important; /* 從 80px 縮減到 40px，省下 80px 的垂直空間 */
+    margin: 0 0 20px 0 !important; /* 縮減下邊界 */
     text-align: center !important;
     
     /* 強制跳出容器達到全螢幕寬度 */
@@ -50,14 +51,14 @@ title: Home
   header h1 a {
     color: #ffffff !important;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-    font-size: 2.8em !important; /* 增大標題 */
+    font-size: 2.2em !important; /* 增大標題 */
     font-weight: bold !important;
     pointer-events: none !important;
   }
 
   header p {
     color: #eeeeee !important;
-    font-size: 1.3em !important;
+    font-size: 1.1em !important;
     margin: 15px 0 0 0 !important;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
   }
@@ -67,8 +68,8 @@ title: Home
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px 0;
-    margin-bottom: 40px;
+    padding: 15px 0;
+    margin-bottom: 20px;
     border-bottom: 1px solid #eee;
     width: 100%;
   }
@@ -87,13 +88,13 @@ title: Home
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 30px;
+    gap: 20px;
     width: 100%;
   }
 
   .profile-image {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #fff;
@@ -101,8 +102,8 @@ title: Home
   }
 
   .profile-text {
-    font-size: 1.2em;
-    line-height: 1.8;
+    font-size: 1.1em;
+    line-height: 1.6;
     color: #333;
     text-align: left; /* 長文左對齊，但區塊本身居中 */
     max-width: 800px;
