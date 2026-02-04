@@ -8,9 +8,6 @@ I am a PhD student in the **Department of Astronomy at The University of Texas a
 ## Built With
 This website is built using **Jekyll** and the **Minimal theme**, customized to reflect my professional identity and my current affiliation with **UT Austin**.
 
-* **Hosting:** GitHub Pages
-* **Domain:** Custom domain (hsinpeichen.com)
-
 ## Generative AI Disclosure
 To optimize the transition from my previous WordPress site and ensure a high-quality user experience, portions of this website's design, custom CSS, and Markdown structure were developed with the assistance of **Generative AI (Gemini 3 Flash)**.
 
