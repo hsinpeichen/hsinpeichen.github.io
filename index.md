@@ -20,10 +20,10 @@ title: Home
   }
 
   header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('photos/website-bg.jpeg') !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.jpeg') !important;
     background-size: cover !important;
     background-position: center !important;
-    padding: 4px 0 !important;
+    padding: 4.5px 0 !important;
     margin: 0 0 25px 0 !important;
     text-align: center !important;
     
