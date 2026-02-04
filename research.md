@@ -22,6 +22,16 @@ title: Research
     float: none !important;
     flex: 1;
   }
+
+  section p {
+  text-align: justify !important;
+  text-justify: inter-word;
+  hyphens: auto;
+  }
+
+  section li {
+    text-align: justify !important;
+  }
   
   .header-nav {
     position: absolute;
