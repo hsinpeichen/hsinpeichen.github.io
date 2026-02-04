@@ -60,7 +60,7 @@ title: Research
   }
 
   header {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.jpeg') !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.webp') !important;
     background-size: cover !important;
     background-position: bottom !important;
     padding: 60px 0 !important;
@@ -167,7 +167,7 @@ title: Research
     
     <h3>Master's Thesis: Exploring the Observability of Surviving Companions of Stripped-envelope Supernovae</h3>
 
-    <img src="photos/research-sn.jpg" alt="Supernova Research" class="project-image">
+    <img src="photos/research-sn.webp" alt="Supernova Research" class="project-image">
     <p class="image-credit">Image credit: NASA, ESA, Leah Hustak (STScI)</p>
 
     <p>
@@ -206,7 +206,7 @@ title: Research
 
     <h3>Current Project at UT: Synthetic Observations of Cosmic Ray Tracers with STARFORGE Simulations</h3>
 
-    <img src="photos/research-starforge.jpg" alt="A snapshot of STARFORGE simulation." class="project-image">
+    <img src="photos/research-starforge.webp" alt="A snapshot of STARFORGE simulation." class="project-image">
     <p class="image-credit">Image credit: Northwestern University/UT Austin</p>
 
     <p>

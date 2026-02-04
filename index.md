@@ -51,7 +51,7 @@ title: Home
   }
 
   header {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.jpeg') !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.webp') !important;
     background-size: cover !important;
     background-position: bottom !important;
     padding: 60px 0 !important;
@@ -161,7 +161,7 @@ title: Home
 </div>
 
 <div class="profile-container">
-  <img src="photos/avatar.jpg" alt="Hsin-Pei Chen" class="profile-image">
+  <img src="photos/avatar.webp" loading="lazy" alt="Hsin-Pei Chen" class="profile-image">
   
   <div class="profile-text">
     <p>I am a graduate student in the <strong>Department of Astronomy at The University of Texas at Austin, working with Dr. Stella Offner.</strong> My work focuses on how stars form and evolve in the Universe.</p>

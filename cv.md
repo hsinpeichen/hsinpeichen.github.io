@@ -50,7 +50,7 @@ title: CV
   }
 
   header {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.jpeg') !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.webp') !important;
     background-size: cover !important;
     background-position: bottom !important;
     padding: 60px 0 !important;
