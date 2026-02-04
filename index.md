@@ -119,7 +119,8 @@ title: Home
     font-size: 1.0em;
     line-height: 1.6;
     color: #333;
-    text-align: left;
+    text-align: justify !important;
+    text-justify: inter-word;
     max-width: 800px;
   }
 
