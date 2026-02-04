@@ -153,7 +153,7 @@ title: Home
     
     <div style="margin-top: 30px;">
         <a href="https://github.com/hsinpeichen" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold;">GitHub Profile</a>
-        <a href="mailto:hpchen@utexas.edu" style="color: #bf5700; text-decoration: none; font-weight: bold;">Email Me</a>
+        <a href="mailto:hpchen@utexas.edu" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold;">Email Me</a>
         <a href="https://www.name-coach.com/hsin-pei-chen-74e4f5c1-32b1-4295-a372-db0a15b96573" target="_blank" style="color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 5px;">
         <span style="font-size: 1.2em;">🔊</span> My Name
         </a>
