@@ -4,7 +4,6 @@ title: Home
 ---
 
 <style>
-  /* 1. 徹底隱藏所有主題自動生成的按鈕與連結 (包含 GitHub Profile) */
   header ul, 
   header .github-button, 
   header .view, 
@@ -16,10 +15,9 @@ title: Home
     padding: 0 !important;
   }
   
-  /* 2. 取消名字標題的連結效果（變回純文字） */
   header h1 a {
-    pointer-events: none !important; /* 禁止點擊 */
-    cursor: default !important;     /* 鼠標不變手型 */
+    pointer-events: none !important;
+    cursor: default !important;
     color: #ffffff !important; 
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
     text-decoration: none !important;
@@ -29,7 +27,6 @@ title: Home
     display: block;
   }
 
-  /* 3. 背景圖與 Header 寬度設定 */
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpeg') !important;
     background-size: cover !important;
@@ -44,7 +41,6 @@ title: Home
     box-sizing: border-box;
   }
 
-  /* 修正副標題樣式 */
   header p {
     color: #eeeeee !important;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
@@ -54,7 +50,6 @@ title: Home
     font-weight: 300;
   }
 
-  /* 4. 導覽列樣式 (調整為 UT 橘色) */
   .header-nav {
     text-align: center;
     padding: 20px 0;
@@ -69,7 +64,6 @@ title: Home
     font-size: 0.95em;
   }
 
-  /* 個人簡介佈局 */
   .profile-container {
     display: flex;
     align-items: flex-start;

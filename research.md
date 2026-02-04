@@ -4,7 +4,6 @@ title: Research
 ---
 
 <style>
-  /* --- 1. 頂部全寬 Header 樣式 (與首頁同步) --- */
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpeg') !important;
     background-size: cover !important;
@@ -40,7 +39,6 @@ title: Research
     font-weight: 300;
   }
 
-  /* --- 2. 導覽列與研究內容樣式 --- */
   .header-nav {
     text-align: center;
     padding: 20px 0;

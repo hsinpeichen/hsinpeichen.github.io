@@ -4,7 +4,6 @@ title: CV
 ---
 
 <style>
-  /* --- 1. 頂部全寬 Header 樣式 (與首頁同步) --- */
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpeg') !important;
     background-size: cover !important;
@@ -19,14 +18,12 @@ title: CV
     box-sizing: border-box;
   }
   
-  /* 徹底隱藏 GitHub 按鈕與連結 */
   header ul, header .github-button, header .view, header .buttons {
     display: none !important;
     visibility: hidden !important;
     height: 0 !important;
   }
 
-  /* 標題與副標題樣式 */
   header h1 a {
     pointer-events: none !important;
     cursor: default !important;
@@ -47,7 +44,6 @@ title: CV
     font-weight: 300;
   }
 
-  /* --- 2. 導覽列與 CV 內容樣式 --- */
   .header-nav {
     text-align: center;
     padding: 20px 0;
@@ -61,7 +57,6 @@ title: CV
     font-weight: 500;
   }
 
-  /* CV 頁面佈局 */
   .cv-section {
     display: flex;
     gap: 40px;
@@ -80,7 +75,6 @@ title: CV
     min-width: 300px;
   }
 
-  /* PDF 嵌入容器樣式 */
   .pdf-container {
     position: relative;
     width: 100%;
@@ -93,8 +87,7 @@ title: CV
     height: 100%;
     border: none;
   }
-  
-  /* 提供行動裝置下載的按鈕 */
+
   .download-btn {
     display: block;
     width: fit-content;
