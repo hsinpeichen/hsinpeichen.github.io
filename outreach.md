@@ -62,6 +62,17 @@ title: Outreach
     margin: 0 auto;
     padding: 20px;
   }
+  .outreach-sidebar {
+    flex: 1;
+    min-width: 150px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+  }
+  .outreach-content {
+    flex: 3;
+    min-width: 300px;
+  }
 
   .image-gallery {
     display: flex;
