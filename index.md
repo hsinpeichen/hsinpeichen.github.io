@@ -1,29 +1,31 @@
 ---
-title: "Index"
+layout: default
+title: Home
 ---
 
-<!-- wp:template-part {"slug":"header","theme":"pub/fewer","tagName":"header"} /-->
+# Hsin-Pei Chen (陳昕霈)
+**PhD Student in Astronomy and Astrophysics | UT Austin**
 
-<!-- wp:columns {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
-<div class="wp-block-columns" style="padding-right:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:column {"width":"33.33%"} -->
-<div class="wp-block-column" style="flex-basis:33.33%"></div>
-<!-- /wp:column -->
+---
 
-<!-- wp:column {"width":"66.66%"} -->
-<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:query {"queryId":5,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":true}} -->
-<div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":2}} -->
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"layout":{"inherit":false}} -->
-<div class="wp-block-group" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:post-featured-image /-->
+## About Me
+I am a PhD student at the University of Texas at Austin's Department of Astronomy. My academic background includes a Master's degree in Astronomy. 
 
-<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary"} /-->
+## Research Interests
+My professional focus is centered on several key areas in Astrophysics:
+* **Supernovae**
+* **Star Formation**
+* **Transients**
 
-<!-- wp:post-title {"isLink":true} /--></div>
-<!-- /wp:group --></div>
-<!-- /wp:group -->
-<!-- /wp:post-template --></div>
-<!-- /wp:query --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
+---
 
-<!-- wp:template-part {"slug":"footer","theme":"pub/fewer","tagName":"footer"} /-->
+## Recent Updates & Blog
+{% for post in site.posts limit:10 %}
+* **[{{ post.date | date: "%Y-%m-%d" }}] [{{ post.title }}]({{ post.url }})**
+{% endfor %}
+
+---
+
+### Contact Information
+* **Email**: hpchen@utexas.edu
+* **Location**: Austin, Texas
