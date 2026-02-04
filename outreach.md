@@ -52,12 +52,12 @@ title: Outreach
   <a href="/outreach">Outreach</a>
 </div>
 
-<div class="research-section">
-  <div class="research-sidebar">
-    Research Overview
+<div class="outreach-section">
+  <div class="outreach-sidebar">
+    Outreach
   </div>
 
-  <div class="research-content">
+  <div class="outreach-content">
     
     <p>
     In addition to my academic pursuits, I have dedicated time to amateur astronomy clubs and activities in Taiwan, with the aim of sharing the wonders of the Universe with college students and the broader public.
