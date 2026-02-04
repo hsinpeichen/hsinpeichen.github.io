@@ -6,7 +6,7 @@ title: Home
 <style>
   /* 1. 讓 Header 背景全螢幕延伸，並移除 GitHub 連結 */
   header {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpg') !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpeg') !important;
     background-size: cover !important;
     background-position: center !important;
     padding: 80px 0 !important;
