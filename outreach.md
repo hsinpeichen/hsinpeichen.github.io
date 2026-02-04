@@ -253,3 +253,5 @@ title: Outreach
     <p>
       As an international student who left my home country at the age of 26, I am currently learning to engage with the local community in Austin, TX by regularly attending Astronomy on Tap ATX events. My goal is to give at least one public talk before I graduate in 2029. Hopefully more!
     </p>
+
+<a href="#" class="back-to-top" title="Back to Top">↑</a>
