@@ -4,9 +4,8 @@ title: Home
 ---
 
 <style>
-  /* 1. 修正整體容器：強制消除主題的側邊欄留白 */
   .wrapper {
-    max-width: 1000px !important; /* 增加一點寬度讓電腦版更大氣 */
+    max-width: 1000px !important;
     margin: 0 auto !important;
     padding: 0 20px !important;
     float: none !important;
@@ -20,16 +19,14 @@ title: Home
     float: none !important;
   }
 
-  /* 2. 修正 Header：確保全寬且文字置中 */
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('photos/website-bg.jpeg') !important;
     background-size: cover !important;
     background-position: center !important;
-    padding: 40px 0 !important; /* 從 80px 縮減到 40px，省下 80px 的垂直空間 */
-    margin: 0 0 20px 0 !important; /* 縮減下邊界 */
+    padding: 4px 0 !important;
+    margin: 0 0 25px 0 !important;
     text-align: center !important;
     
-    /* 強制跳出容器達到全螢幕寬度 */
     width: 100vw !important;
     position: relative !important;
     left: 50% !important;
@@ -38,7 +35,6 @@ title: Home
     float: none !important;
   }
 
-  /* 隱藏主題原本在左側的物件 */
   header ul, header p.view, header .buttons {
     display: none !important;
   }
@@ -51,7 +47,7 @@ title: Home
   header h1 a {
     color: #ffffff !important;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-    font-size: 2.2em !important; /* 增大標題 */
+    font-size: 2.2em !important;
     font-weight: bold !important;
     pointer-events: none !important;
   }
@@ -63,7 +59,6 @@ title: Home
     text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
   }
 
-  /* 3. 導覽列：確保在正中間 */
   .header-nav {
     display: flex;
     justify-content: center;
@@ -82,7 +77,6 @@ title: Home
     font-size: 1.2em;
   }
 
-  /* 4. 個人介紹區塊：居中排版 */
   .profile-container {
     display: flex;
     flex-direction: column;
@@ -105,7 +99,7 @@ title: Home
     font-size: 1.1em;
     line-height: 1.6;
     color: #333;
-    text-align: left; /* 長文左對齊，但區塊本身居中 */
+    text-align: left;
     max-width: 800px;
   }
 
@@ -125,7 +119,7 @@ title: Home
   <img src="photos/avatar.jpg" alt="Hsin-Pei Chen" class="profile-image">
   
   <div class="profile-text">
-    <p>(test) I am a graduate student in the <strong>Department of Astronomy at The University of Texas at Austin, working with Dr. Stella Offner</strong>. My work focuses on how stars form and evolve in the Universe.</p>
+    <p>I am a graduate student in the <strong>Department of Astronomy at The University of Texas at Austin, working with Dr. Stella Offner</strong>. My work focuses on how stars form and evolve in the Universe.</p>
 
     <p>I hold a M.S. degree from <strong>Institute of Astronomy, National Tsing Hua University</strong>, Taiwan, where I conducted astrophysical simulations of supernovae. As at UT, <strong>my current project investigates the role of cosmic rays in star-forming clouds using STARFORGE simulations.</strong></p>
 
@@ -134,7 +128,7 @@ title: Home
     <div style="margin-top: 30px;">
         <a href="https://github.com/hsinpeichen" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold;">GitHub Profile</a>
         <a href="mailto:hpchen@utexas.edu" style="color: #bf5700; text-decoration: none; font-weight: bold;">Email Me</a>
-        <a href="https://www.name-coach.com/hsin-pei-chen-74e4f5c1-32b1-4295-a372-db0a15b96573" target="_blank" style="color: #bf5700; text-decoration: none; font-weight: bold; display: flex; align-items: center; gap: 5px;">
+        <a href="https://www.name-coach.com/hsin-pei-chen-74e4f5c1-32b1-4295-a372-db0a15b96573" target="_blank" style="color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 5px;">
         <span style="font-size: 1.2em;">🔊</span> My Name
         </a>
     </div>
