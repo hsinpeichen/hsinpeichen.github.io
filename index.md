@@ -48,7 +48,7 @@ title: Home
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.jpeg') !important;
     background-size: cover !important;
     background-position: center !important;
-    padding: 8px 0 !important;
+    padding: 80px 0 !important;
     text-align: center !important;
     width: 100vw !important;
     position: relative !important;
@@ -112,7 +112,7 @@ title: Home
 
   .profile-text {
     flex: 7;
-    font-size: 0.9em;
+    font-size: 1.0em;
     line-height: 1.6;
     color: #333;
     text-align: left;
