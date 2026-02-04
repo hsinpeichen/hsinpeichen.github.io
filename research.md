@@ -3,8 +3,57 @@ layout: default
 title: Research
 ---
 
+太棒了！既然 index.md 的全寬星空背景已經完美達成，要把這個效果同步到 research.md、cv.md 和 outreach.md，我們只需要把那段「終極 Header CSS」複製過去，並微調一下原本頁面的佈局。
+
+以下是針對 research.md 的修改範本，你可以依此類推到其他頁面：
+
+1. 修改 research.md (範例)
+請將原本的 <style> 區塊替換如下。我保留了你原本的研究佈局（分欄、按鈕等），只更新了頂部 Header 的部分：
+
+Markdown
+---
+layout: default
+title: Research
+---
+
 <style>
-  /* 頂部導覽與標題樣式 (與首頁保持一致) */
+  /* --- 1. 頂部全寬 Header 樣式 (與首頁同步) --- */
+  header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpeg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 60px 20px !important;
+    text-align: center;
+    width: 100vw !important;
+    position: relative !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+  header ul, header .github-button, header .view, header .buttons {
+    display: none !important;
+  }
+  header h1 a {
+    pointer-events: none !important;
+    cursor: default !important;
+    color: #ffffff !important; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 1.8em !important;
+    line-height: 1.2 !important;
+    display: block;
+  }
+  header p {
+    color: #eeeeee !important;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    font-size: 1.1em !important;
+    margin-top: 10px !important;
+    font-weight: 300;
+  }
+
+  /* --- 2. 導覽列與研究內容樣式 --- */
   .header-nav {
     text-align: center;
     padding: 20px 0;
@@ -18,7 +67,6 @@ title: Research
     font-weight: 500;
   }
 
-  /* 研究專案的佈局 */
   .research-section {
     display: flex;
     gap: 40px;
@@ -27,7 +75,7 @@ title: Research
   }
   .research-sidebar {
     flex: 1;
-    min-width: 200px;
+    min-width: 150px;
     font-size: 1.5em;
     font-weight: bold;
     color: #333;
@@ -36,7 +84,7 @@ title: Research
     flex: 3;
     min-width: 300px;
   }
-  .blog-image {
+  .project-image {
     width: 100%;
     max-width: 600px;
     height: auto;
@@ -49,21 +97,16 @@ title: Research
     font-style: italic;
     margin-bottom: 20px;
   }
-  /* 醒目的按鈕樣式 */
   .paper-btn {
     display: inline-block;
     margin: 15px 0;
     padding: 10px 20px;
-    background-color: #bf5700; /* UT 橘 */
+    background-color: #bf5700;
     color: white !important;
     text-decoration: none !important;
     border-radius: 5px;
     font-weight: bold;
     font-size: 0.9em;
-    transition: background-color 0.3s;
-  }
-  .paper-btn:hover {
-    background-color: #9d4700; /* 滑鼠游標懸停時變深 */
   }
 </style>
 

@@ -4,60 +4,91 @@ title: Outreach
 ---
 
 <style>
-  /* 導覽列與標題樣式 */
-  .header-nav {
-    text-align: center;
-    padding: 20px 0;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
-  }
-  .header-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #bf5700;
-    font-weight: 500;
-  }
+/* --- 1. 頂部全寬 Header 樣式 (與首頁同步) --- /
+header {
+background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpeg') !important;
+background-size: cover !important;
+background-position: center !important;
+padding: 60px 20px !important;
+text-align: center;
+width: 100vw !important;
+position: relative !important;
+left: 50% !important;
+transform: translateX(-50%) !important;
+margin: 0 !important;
+box-sizing: border-box;
+}
 
-  /* 外層容器 */
-  .outreach-section {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  .outreach-sidebar {
-    flex: 1;
-    min-width: 200px;
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #333;
-  }
-  .outreach-content {
-    flex: 3;
-    min-width: 300px;
-  }
+/ 徹底隱藏 GitHub 按鈕與連結 /
+header ul, header .github-button, header .view, header .buttons {
+display: none !important;
+visibility: hidden !important;
+height: 0 !important;
+}
 
-  /* 圖片排列調整：改為垂直堆疊以顯示完整比例 */
-  .image-gallery {
-    display: flex;
-    flex-direction: column; /* 強制垂直排列 */
-    gap: 20px; /* 增加圖片間的間距 */
-    margin: 20px 0;
-  }
-  
-  .gallery-item {
-    width: 100%; /* 寬度佔滿容器 */
-    max-width: 600px; /* 限制最大寬度防止圖片過大，您可以根據喜好調整 */
-    margin: 0 auto; /* 圖片置中 */
-  }
-  
-  .gallery-item img {
-    width: 100%;
-    height: auto; /* 【關鍵】讓高度隨比例自動調整，不裁切圖片 */
-    display: block;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 加入輕微陰影增加質感 */
-  }
+/ 標題與副標題樣式 /
+header h1 a {
+pointer-events: none !important;
+cursor: default !important;
+color: #ffffff !important;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+text-decoration: none !important;
+font-weight: bold;
+font-size: 1.8em !important;
+line-height: 1.2 !important;
+display: block;
+}
+
+header p {
+color: #eeeeee !important;
+text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+font-size: 1.1em !important;
+margin-top: 10px !important;
+font-weight: 300;
+}
+
+/ --- 2. 導覽列與 Outreach 內容樣式 --- /
+.header-nav {
+text-align: center;
+padding: 20px 0;
+margin-bottom: 20px;
+border-bottom: 1px solid #eee;
+}
+.header-nav a {
+margin: 0 15px;
+text-decoration: none;
+color: #bf5700;
+font-weight: 500;
+}
+
+.outreach-section {
+max-width: 900px;
+margin: 0 auto;
+padding: 20px;
+}
+
+/ 圖片排列調整：垂直堆疊並保持比例 */
+.image-gallery {
+display: flex;
+flex-direction: column;
+gap: 20px;
+margin: 20px 0;
+}
+
+.gallery-item {
+width: 100%;
+max-width: 600px;
+margin: 0 auto;
+}
+
+.gallery-item img {
+width: 100%;
+height: auto;
+display: block;
+border: 1px solid #ddd;
+border-radius: 4px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 </style>
 
 <div class="header-nav">
@@ -73,9 +104,7 @@ title: Outreach
   </div>
 
   <div class="outreach-content">
-    
-    <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
-    
+
     <p>
     In addition to my academic pursuits, I have dedicated time to amateur astronomy clubs and activities in Taiwan, with the aim of sharing the wonders of the Universe with college students and the broader public.
     <p>
