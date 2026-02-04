@@ -85,23 +85,34 @@ title: Home
 
   .profile-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 950px;
     width: 100%;
+  }
+  
+  .profile-image-wrapper {
+    flex: 3;
+    display: flex;
+    justify-content: center;
   }
 
   .profile-image {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #fff;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border: 3px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
 
   .profile-text {
+    flex: 7;
     font-size: 1.1em;
     line-height: 1.6;
     color: #333;
@@ -111,6 +122,16 @@ title: Home
 
   .profile-text strong {
     color: #bf5700;
+  }
+  
+  @media screen and (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .profile-text {
+    text-align: center;
   }
 </style>
 
