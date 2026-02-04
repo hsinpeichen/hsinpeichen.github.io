@@ -51,39 +51,46 @@ title: Home
   }
 
   .header-nav {
-    text-align: center;
-    padding: 20px 0;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    margin-bottom: 30px;
     border-bottom: 1px solid #eee;
   }
   .header-nav a {
-    margin: 0 10px;
+    margin: 0 20px;
     text-decoration: none;
     color: #bf5700;
-    font-weight: 500;
-    font-size: 0.95em;
+    font-weight: bold;
+    font-size: 1.2em;
   }
 
   .profile-container {
+    max-width: 900px;
+    margin: 0 auto;
     display: flex;
-    align-items: flex-start;
-    gap: 40px;
-    flex-wrap: wrap;
-    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
   }
   .profile-image {
-    width: 220px;
-    height: 220px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #fff;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
   .profile-text {
-    flex: 1;
-    min-width: 300px;
-    line-height: 1.7;
+    font-size: 1.25em;
+    line-height: 1.8;
     color: #333;
+    text-align: left;
+  }
+
+  .profile-text strong {
+    color: #bf5700;
   }
 </style>
 
