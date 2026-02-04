@@ -4,54 +4,89 @@ title: Research
 ---
 
 <style>
+  .wrapper {
+    max-width: 1000px !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+    float: none !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  section {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 20px 0 !important;
+    float: none !important;
+    flex: 1;
+  }
+  
+  .header-nav {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: none;
+    width: 100%;
+  }
+
+  .header-nav a {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #bf5700;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .header-nav a:hover {
+  color: #ffcc00 !important;
+  }
+
   header {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpeg') !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.jpeg') !important;
     background-size: cover !important;
-    background-position: center !important;
-    padding: 60px 20px !important;
-    text-align: center;
+    background-position: bottom !important;
+    padding: 60px 0 !important;
+    text-align: center !important;
     width: 100vw !important;
     position: relative !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
-    margin: 0 !important;
-    box-sizing: border-box;
+    margin: 0 0 20px 0 !important;
+    float: none !important;
   }
-  header ul, header .github-button, header .view, header .buttons {
+
+  header ul, header p.view, header .buttons {
     display: none !important;
   }
-  header h1 a {
-    pointer-events: none !important;
-    cursor: default !important;
-    color: #ffffff !important; 
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-    text-decoration: none !important;
-    font-weight: bold;
-    font-size: 1.8em !important;
-    line-height: 1.2 !important;
-    display: block;
+
+  header h1 {
+    margin: 0 !important;
+    width: 100% !important;
   }
+
+  header h1 a {
+    color: #ffffff !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    font-size: 1.5em !important;
+    font-weight: bold !important;
+    pointer-events: none !important;
+  }
+
   header p {
     color: #eeeeee !important;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
     font-size: 1.1em !important;
-    margin-top: 10px !important;
-    font-weight: 300;
+    margin: 15px 0 0 0 !important;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
   }
-
-  .header-nav {
-    text-align: center;
-    padding: 20px 0;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
-  }
-  .header-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #bf5700;
-    font-weight: 500;
-  }
-
+  
   .research-section {
     display: flex;
     gap: 40px;

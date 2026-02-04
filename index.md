@@ -45,7 +45,7 @@ title: Home
     font-size: 1.2em;
   }
   .header-nav a:hover {
-  color: #ffcc00 !important; /* 滑鼠懸停時顯示亮黃色 */
+  color: #ffcc00 !important;
   }
 
   header {
