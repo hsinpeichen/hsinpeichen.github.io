@@ -9,6 +9,9 @@ title: Home
     margin: 0 auto !important;
     padding:c 0 20px !important;
     float: none !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
 
   section {
@@ -17,6 +20,7 @@ title: Home
     margin: 0 !important;
     padding: 20px 0 !important;
     float: none !important;
+    flex: 1;
   }
   .header-nav {
     position: absolute;
@@ -131,6 +135,17 @@ title: Home
   }
   .profile-text {
     text-align: center;
+  }
+
+  footer {
+  position: relative !important;
+  bottom: auto !important;
+  left: auto !important;
+  width: 100% !important;
+  text-align: center !important;
+  padding: 40px 0 !important;
+  margin-top: 50px !important;
+  clear: both !important;
   }
 </style>
 
