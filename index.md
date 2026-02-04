@@ -50,6 +50,21 @@ title: Home
     font-weight: 300;
   }
 
+  .wrapper {
+    max-width: 900px !important;
+    margin: 0 auto !important;
+    float: none !important;
+    position: relative !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  section {
+    width: 100% !important;
+    float: none !important;
+    margin: 0 auto !important;
+  }
+
   .header-nav {
     display: flex;
     justify-content: center;
