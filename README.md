@@ -20,6 +20,6 @@ This collaborative approach allowed me to create a professional, accessible acad
 
 ## Repository Structure
 * `index.md`: The homepage with personal biography and profile.
-* `research.md`: Detailed overview of master's and PhD research projects.
+* `research.md`: Overview of master's and PhD research projects.
 * `cv.md`: Academic curriculum vitae with embedded viewer.
-* `outreach.md`: Records
+* `outreach.md`: Records of outreach activities.
