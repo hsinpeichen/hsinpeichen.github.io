@@ -19,20 +19,20 @@ title: Research
   }
 
   /* 研究專案的佈局 */
-  .outreach-section {
+  .research-section {
     display: flex;
     gap: 40px;
     margin-top: 40px;
     flex-wrap: wrap;
   }
-  .outreach-sidebar {
+  .research-sidebar {
     flex: 1;
     min-width: 200px;
     font-size: 1.5em;
     font-weight: bold;
     color: #333;
   }
-  .outreach-content {
+  .research-content {
     flex: 3;
     min-width: 300px;
   }
