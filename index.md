@@ -168,7 +168,7 @@ title: Home
 
     <p>I hold a M.S. degree from <strong>Institute of Astronomy, National Tsing Hua University</strong>, Taiwan, where I conducted astrophysical simulations of supernovae. At UT, my <strong>current project investigates the role of cosmic rays in star-forming clouds using STARFORGE simulations.</strong></p>
 
-    <p>I was born and raised in Kaohsiung, a beautiful city in Southern Taiwan. And so was my dog, <a href="https://www.instagram.com/mumu_dog_0910/"font-weight: bold;">Mumu</a>! We moved to Austin together in the summer of 2024.</p>
+    <p>I was born and raised in Kaohsiung, a beautiful city in Southern Taiwan. And so was my dog, <a href="https://www.instagram.com/mumu_dog_0910/" style="font-weight: bold;">Mumu</a>! We moved to Austin together in the summer of 2024.</p>
     
     <div style="margin-top: 30px;">
         <a href="https://github.com/hsinpeichen" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold;">GitHub Profile</a>
