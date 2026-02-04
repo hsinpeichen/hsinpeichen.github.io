@@ -63,7 +63,7 @@ title: Home
 </div>
 
 <div class="profile-container">
-  <img src="avatar.jpg" alt="Hsin-Pei Chen" class="profile-image">
+  <img src="photos/avatar.jpg" alt="Hsin-Pei Chen" class="profile-image">
   
   <div class="profile-text">
     <p>I am a graduate student in the <strong>Department of Astronomy at The University of Texas at Austin</strong>. My work focuses on how stars form and evolve in the Universe.</p>
