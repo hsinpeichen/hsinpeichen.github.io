@@ -86,7 +86,7 @@ title: Research
     margin: 15px 0 0 0 !important;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
   }
-  
+
   .research-section {
     display: flex;
     gap: 40px;
@@ -127,6 +127,17 @@ title: Research
     border-radius: 5px;
     font-weight: bold;
     font-size: 0.9em;
+  }
+
+  footer {
+  position: relative !important;
+  bottom: auto !important;
+  left: auto !important;
+  width: 100% !important;
+  text-align: center !important;
+  padding: 40px 0 !important;
+  margin-top: 50px !important;
+  clear: both !important;
   }
 </style>
 
