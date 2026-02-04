@@ -7,7 +7,7 @@ title: Home
   .wrapper {
     max-width: 1000px !important;
     margin: 0 auto !important;
-    padding: 0 20px !important;
+    padding:c 0 20px !important;
     float: none !important;
   }
 
@@ -17,6 +17,31 @@ title: Home
     margin: 0 !important;
     padding: 20px 0 !important;
     float: none !important;
+  }
+  .header-nav {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: none;
+    width: 100%;
+  }
+
+  .header-nav a {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #bf5700;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .header-nav a:hover {
+  color: #ffcc00 !important; /* 滑鼠懸停時顯示亮黃色 */
   }
 
   header {
@@ -57,24 +82,6 @@ title: Home
     font-size: 1.1em !important;
     margin: 15px 0 0 0 !important;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
-  }
-
-  .header-nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 15px 0;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
-    width: 100%;
-  }
-
-  .header-nav a {
-    margin: 10px 20px;
-    text-decoration: none;
-    color: #bf5700;
-    font-weight: bold;
-    font-size: 1.2em;
   }
 
   .profile-container {
