@@ -4,6 +4,24 @@ title: Home
 ---
 
 <style>
+  /* 強制隱藏頂部主題自動產生的 GitHub 連結列表/按鈕 */
+  header ul {
+    display: none !important;
+  }
+  
+  /* 確保標題與副標題在沒有按鈕的情況下依然居中且美觀 */
+  header h1 a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 1.8em !important;
+  }
+  
+  header p {
+    color: #eeeeee !important;
+    font-size: 1.1em !important;
+    margin-bottom: 0 !important;
+  }
   /* 1. 修正 Header 背景：全寬延伸但限制內容 */
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('photos/website-bg.jpeg') !important;
