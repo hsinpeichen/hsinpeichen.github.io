@@ -125,12 +125,18 @@ title: Outreach
     display: flex;
     flex-direction: row;
     gap: 15px;
-    margin: 20px 0;
+    margin: 30px 0 !important;
+    align-items: flex-start;
   }
   
   .gallery-item {
     flex: 1;
     max-width: calc(33.33% - 10px);
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .gallery-item img {
@@ -143,14 +149,41 @@ title: Outreach
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
 
+  .gallery-item figcaption {
+    margin-top: 10px !important;
+    font-size: 0.8em !important;
+    color: #666 !important;
+    font-style: italic !important;
+    line-height: 1.4;
+    text-align: center;
+  }
+
   .blog-image {
     width: 100%;
     max-width: 500px;
     height: auto;
     display: block;
-    margin: 20px auto;
     border-radius: 4px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin: 0 auto;
+  }
+
+  figure {
+    margin: 30px auto !important;
+    padding: 0 !important;
+    max-width: 1000px;
+    text-align: center;
+  }
+
+  figcaption {
+    margin-top: 12px !important;
+    font-size: 0.85em !important;
+    color: #666 !important;
+    font-style: italic !important;
+    line-height: 1.5;
+    max-width: 500px;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
   .back-to-top {
@@ -191,9 +224,10 @@ title: Outreach
     }
     .image-gallery {
       flex-direction: column !important;
+      gap: 30px;
     }
     .gallery-item {
-      max-width: 100%;
+      max-width: 100% !important;
     }
   }
 
@@ -237,28 +271,37 @@ title: Outreach
   <div class="outreach-content">
     <h3>Astronomy Club Activities (2017-2020)</h3>
 
-    <img src="photos/outreach-nknuastrclub.webp" alt="NKNU astro club" class="blog-image">
+    <figure>
+      <img src="photos/outreach-nknuastrclub.webp" alt="NKNU astro club" class="blog-image">
+    </figure>
 
     <p>
       I initiated the Astronomy Club at NKNU during my undergraduate years, recruited instructors and instrumental aids, and designed courses for astronomy and observation techniques. I also led the teaching segment at the NTHU StarKids Astronomy Camp, designed for high school students who are passionate about astronomy.
     </p>
 
-    <img src="photos/outreach-starkids.webp" loading="lazy" alt="Starkids Camp" class="blog-image">
+    <figure>
+      <img src="photos/outreach-starkids.webp" loading="lazy" alt="Starkids Camp" class="blog-image">
+      <figcaption>
+        2019 StarKids Astronomy Camp in Hsinchu, Taiwan.
+      </figcaption>
+    </figure>
 
     <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
 
     <h3>Astronomy Club Union of Universities in Taiwan (2020-2024)</h3>
 
     <div class="image-gallery">
-      <div class="gallery-item">
+      <figure class="gallery-item">
         <img src="photos/outreach-acuut1.webp" loading="lazy" alt="ACUUT Event 1">
-      </div>
-      <div class="gallery-item">
+      </figure>
+      
+      <figure class="gallery-item">
         <img src="photos/outreach-acuut2.webp" loading="lazy" alt="ACUUT Event 2">
-      </div>
-      <div class="gallery-item">
+      </figure>
+      
+      <figure class="gallery-item">
         <img src="photos/outreach-acuut3.webp" loading="lazy" alt="ACUUT Event 3">
-      </div>
+      </figure>
     </div>
 
     <p>
@@ -269,7 +312,9 @@ title: Outreach
 
     <h3>Astronomy for the Public in Austin (2024-Current)</h3>
 
-    <img src="photos/outreach-aotatx.webp" loading="lazy" alt="AoT in Austin" class="blog-image">
+    <figure>
+      <img src="photos/outreach-aotatx.webp" loading="lazy" alt="AoT in Austin" class="blog-image">
+    </figure>
 
     <p>
       As an international student who left my home country at the age of 26, I am currently learning to engage with the local community in Austin, TX by regularly attending Astronomy on Tap ATX events. My goal is to give at least one public talk before I graduate in 2029. Hopefully more!
