@@ -120,27 +120,37 @@ title: Outreach
 
   .image-gallery {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    gap: 15px;
     margin: 20px 0;
   }
   
   .gallery-item {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
+    flex: 1;
+    max-width: calc(33.33% - 10px);
   }
   
   .gallery-item img {
     width: 100%;
-    height: auto;
+    height: 200px;
+    object-fit: cover;
     display: block;
     border: 1px solid #ddd;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
 
-    .back-to-top {
+  .blog-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .back-to-top {
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -175,6 +185,12 @@ title: Outreach
       width: 40px;
       height: 40px;
       font-size: 18px;
+    }
+    .image-gallery {
+      flex-direction: column !important;
+    }
+    .gallery-item {
+      max-width: 100%;
     }
   }
 
