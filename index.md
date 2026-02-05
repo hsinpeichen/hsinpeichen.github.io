@@ -235,12 +235,13 @@ title: Home
 
       <a href="https://github.com/hsinpeichen" target="_blank" 
         style="color: white; background-color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; padding: 10px 20px; border-radius: 50px; transition: background-color 0.3s, transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <img src="photos/GitHub_logo.png" alt="Icon" style="width: 20px; height: 20px; object-fit: contain; filter: brightness(0) invert(1);">
           GitHub
       </a>
 
       <a href="mailto:hpchen@utexas.edu" target="_blank" 
         style="color: white; background-color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; padding: 10px 20px; border-radius: 50px; transition: background-color 0.3s, transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-          Email Me
+          Email
       </a>
 
       <a href="https://www.name-coach.com/hsin-pei-chen-74e4f5c1-32b1-4295-a372-db0a15b96573" target="_blank" 
