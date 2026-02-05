@@ -191,32 +191,23 @@ title: Outreach
     }
   }
 
-  footer {
-    position: relative !important;
+  .custom-footer {
+    display: block !important;
     width: 100% !important;
     text-align: center !important;
-    padding: 20px 0 !important;
-    margin-top: 60px !important;
+    padding: 40px 0 !important;
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
     clear: both !important;
     font-size: 0.85em !important;
     color: #999 !important;
     line-height: 1.8;
+    border-top: 1px solid #eee; /* 加入淡灰色分割線，視覺上更整潔 */
   }
 
-  footer a {
-    color: #999 !important;
+  .custom-footer a {
+    color: #777 !important;
     text-decoration: underline;
-  }
-
-  footer a:hover {
-    color: #bf5700 !important;
-  }
-
-  footer p small {
-    display: block;
-    margin-top: 10px;
-    color: #999 !important;
-    font-size: 1em !important;
   }
 </style>
 
