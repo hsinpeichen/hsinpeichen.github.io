@@ -227,7 +227,6 @@ title: Home
     <p>I was born and raised in <a href="https://khh.travel/en/" style="font-weight: bold; color: #bf5700;">Kaohsiung</a>, a beautiful city in Southern Taiwan. And so was my dog, <a href="https://www.instagram.com/mumu_dog_0910/" style="font-weight: bold; color: #bf5700;">Mumu</a>! We moved to Austin together in the summer of 2024.</p>
     
     <div style="margin-top: 30px;">
-        <a href="https://scholar.google.com/citations?user=52K9oPIAAAAJ" target="_blank" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold;">Google Scholar</a>
         <a href="https://scixplorer.org/public-libraries/7K4rh0uVRXaVBYfpganPeQ" target="_blank" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 8px;"> <img src="photos/scix_logo.webp" alt="Icon" style="width: 20px; height: 20px; object-fit: contain;">My Publications</a>
         <a href="https://github.com/hsinpeichen" target="_blank" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold;">GitHub Profile</a>
         <a href="mailto:hpchen@utexas.edu" target="_blank" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold;">Email Me</a>
