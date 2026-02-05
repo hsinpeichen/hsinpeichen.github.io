@@ -233,7 +233,6 @@ title: Outreach
   </div>
 
   <div class="outreach-content">
-
     <p>
       In addition to my academic pursuits, I have dedicated time to amateur astronomy clubs and activities in Taiwan, with the aim of sharing the wonders of the Universe with college students and the broader public.
     <p>
@@ -287,7 +286,8 @@ title: Outreach
     <p>
       As an international student who left my home country at the age of 26, I am currently learning to engage with the local community in Austin, TX by regularly attending Astronomy on Tap ATX events. My goal is to give at least one public talk before I graduate in 2029. Hopefully more!
     </p>
-
+  </div>
+</div>
 
 <div class="custom-footer">
   <p>© 2026 Hsin-Pei Chen | Last updated: {{ site.time | date: "%B %d, %Y" }}</p>

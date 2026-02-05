@@ -222,7 +222,6 @@ title: Research
   </div>
 
   <div class="research-content">
-    
     <h3>Synthetic Observations of Cosmic Ray Tracers with STARFORGE Simulations</h3>
 
     <img src="photos/research-starforge.webp" alt="A snapshot of STARFORGE simulation." class="project-image">
@@ -270,7 +269,8 @@ title: Research
 
     <a href="https://iopscience.iop.org/article/10.3847/1538-4357/acc9af" class="paper-btn" target="_blank"> View Paper
     </a>
-
+  </div>
+</div>
 
 <div class="custom-footer">
   <p>© 2026 Hsin-Pei Chen | Last updated: {{ site.time | date: "%B %d, %Y" }}</p>
