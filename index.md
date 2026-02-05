@@ -162,16 +162,22 @@ title: Home
     }
   }
 
-  footer {
+footer {
     position: relative !important;
     width: 100% !important;
     text-align: center !important;
-    padding: 20px 0 !important;
-    margin-top: 60px !important;
+    padding: 0 !important;
+    margin-top: 80px !important;
+    margin-bottom: 20px !important;
     clear: both !important;
     font-size: 0.85em !important;
     color: #999 !important;
-    line-height: 1.8;
+    line-height: 1.5 !important;
+  }
+
+  footer p {
+    margin: 0 0 5px 0 !important; 
+    padding: 0 !important;
   }
 
   footer a {
@@ -184,8 +190,8 @@ title: Home
   }
 
   footer p small {
-    display: block;
-    margin-top: 10px;
+    display: inline-block !important;
+    margin-top: 5px !important;
     color: #999 !important;
     font-size: 1em !important;
   }
