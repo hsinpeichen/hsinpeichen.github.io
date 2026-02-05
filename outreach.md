@@ -235,7 +235,7 @@ title: Outreach
   <div class="outreach-content">
 
     <p>
-    In addition to my academic pursuits, I have dedicated time to amateur astronomy clubs and activities in Taiwan, with the aim of sharing the wonders of the Universe with college students and the broader public.
+      In addition to my academic pursuits, I have dedicated time to amateur astronomy clubs and activities in Taiwan, with the aim of sharing the wonders of the Universe with college students and the broader public.
     <p>
     
     <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
@@ -263,15 +263,15 @@ title: Outreach
     <h3>Astronomy Club Union of Universities in Taiwan (2020-2024)</h3>
 
     <div class="image-gallery">
-    <div class="gallery-item">
-      <img src="photos/outreach-acuut1.webp" loading="lazy" alt="ACUUT Event 1">
-    </div>
-    <div class="gallery-item">
-      <img src="photos/outreach-acuut2.webp" loading="lazy" alt="ACUUT Event 2">
-    </div>
-    <div class="gallery-item">
-      <img src="photos/outreach-acuut3.webp" loading="lazy" alt="ACUUT Event 3">
-    </div>
+      <div class="gallery-item">
+        <img src="photos/outreach-acuut1.webp" loading="lazy" alt="ACUUT Event 1">
+      </div>
+      <div class="gallery-item">
+        <img src="photos/outreach-acuut2.webp" loading="lazy" alt="ACUUT Event 2">
+      </div>
+      <div class="gallery-item">
+        <img src="photos/outreach-acuut3.webp" loading="lazy" alt="ACUUT Event 3">
+      </div>
     </div>
 
     <p>
@@ -288,6 +288,8 @@ title: Outreach
       As an international student who left my home country at the age of 26, I am currently learning to engage with the local community in Austin, TX by regularly attending Astronomy on Tap ATX events. My goal is to give at least one public talk before I graduate in 2029. Hopefully more!
     </p>
   </div>
+</div>
+
 
 <footer>
   <p>© 2026 Hsin-Pei Chen | Last updated: Feb 2026</p>

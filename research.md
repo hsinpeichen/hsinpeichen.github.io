@@ -237,17 +237,17 @@ title: Research
     <h3>Research Assistant Project at NCTS: Type Ia Supernova Progenitors and Surviving Companions within the Symbiotic Channel</h3>
 
     <div style="max-width: 600px; margin: 30px 0; border: 1px solid #ddd; padding: 10px; background-color: #f9f9f9;">
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-        <iframe 
-        src="https://www.youtube.com/embed/QSmuqBiAQ4c" 
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-        </iframe>
-    </div>
-    <p style="margin: 10px 0 0 0; font-size: 0.9em; font-style: italic; color: #333; border-top: 1px solid #eee; padding-top: 10px;">
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe 
+          src="https://www.youtube.com/embed/QSmuqBiAQ4c" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+          </iframe>
+      </div>
+      <p style="margin: 10px 0 0 0; font-size: 0.9em; font-style: italic; color: #333; border-top: 1px solid #eee; padding-top: 10px;">
         NASA video (1:20) explaining the single-degenerate scenario of Type Ia supernovae.
-    </p>
+      </p>
     </div>
 
     <p>
@@ -270,8 +270,8 @@ title: Research
 
     <a href="https://iopscience.iop.org/article/10.3847/1538-4357/acc9af" class="paper-btn" target="_blank"> View Paper
     </a>
-
   </div>
+</div>
 
 <footer>
   <p>© 2026 Hsin-Pei Chen | Last updated: Feb 2026</p>
