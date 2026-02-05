@@ -223,7 +223,7 @@ title: Research
 
   <div class="research-content">
     
-    <h3>Current Project at UT: Synthetic Observations of Cosmic Ray Tracers with STARFORGE Simulations</h3>
+    <h3>Synthetic Observations of Cosmic Ray Tracers with STARFORGE Simulations</h3>
 
     <img src="photos/research-starforge.webp" alt="A snapshot of STARFORGE simulation." class="project-image">
     <p class="image-credit">Image credit: Northwestern University/UT Austin</p>
@@ -234,7 +234,7 @@ title: Research
 
     <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
 
-    <h3>Research Assistant Project at NCTS: Type Ia Supernova Progenitors and Surviving Companions within the Symbiotic Channel</h3>
+    <h3>Type Ia Supernova Progenitors and Surviving Companions within the Symbiotic Channel</h3>
 
     <div style="max-width: 600px; margin: 30px 0; border: 1px solid #ddd; padding: 10px; background-color: #f9f9f9;">
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -259,7 +259,7 @@ title: Research
 
     <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
 
-    <h3>Master's Thesis: Exploring the Observability of Surviving Companions of Stripped-envelope Supernovae</h3>
+    <h3>Exploring the Observability of Surviving Companions of Stripped-envelope Supernovae</h3>
 
     <img src="photos/research-sn.webp" alt="Supernova Research" class="project-image">
     <p class="image-credit">Image credit: NASA, ESA, Leah Hustak (STScI)</p>
