@@ -272,7 +272,6 @@ title: Research
     </a>
 
   </div>
-</div>
 
 <footer>
   <p>© 2026 Hsin-Pei Chen | Last updated: Feb 2026</p>
