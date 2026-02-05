@@ -191,11 +191,14 @@ title: Research
   }
 
   .custom-footer {
+    width: 100vw !important;
+    position: relative !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
     display: block !important;
-    width: 100% !important;
     text-align: center !important;
     padding: 40px 0 !important;
-    margin-top: 40px !important;
+    margin-top: 60px !important;
     margin-bottom: 20px !important;
     clear: both !important;
     font-size: 0.85em !important;
