@@ -271,5 +271,19 @@ title: Outreach
     <p>
       As an international student who left my home country at the age of 26, I am currently learning to engage with the local community in Austin, TX by regularly attending Astronomy on Tap ATX events. My goal is to give at least one public talk before I graduate in 2029. Hopefully more!
     </p>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Hsin-Pei Chen | Last updated: Feb 2026</p>
+  <p>
+    Find me on 
+    <a href="https://github.com/hsinpeichen" target="_blank">GitHub</a> | 
+    <a href="mailto:hpchen@utexas.edu">Email</a>
+  </p>
+  <p style="font-size: 0.8em; color: #999;">
+    All content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> unless otherwise noted.
+  </p>
+</footer>
 
 <a href="#" class="back-to-top" title="Back to Top">↑</a>
