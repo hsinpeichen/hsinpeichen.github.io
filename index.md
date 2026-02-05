@@ -228,31 +228,31 @@ title: Home
     
     <div style="margin-top: 30px; display: flex; flex-wrap: wrap; gap: 10px;">
       <a href="https://scixplorer.org/public-libraries/7K4rh0uVRXaVBYfpganPeQ" target="_blank" 
-        style="color: white; background-color: #E64A19; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 6px; padding: 8px 15px; border-radius: 50px; font-size: 0.95em; transition: opacity 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        style="color: white; background-color: #E64A19; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 6px; padding: 8px 15px; border-radius: 50px; font-size: 1.0em; transition: opacity 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <img src="photos/scix_logo.webp" alt="Icon" style="width: 18px; height: 18px; object-fit: contain; filter: brightness(0) invert(1);"> 
           Publications
       </a>
 
       <a href="files/CV_HPC_02042026.pdf" target="_blank" 
-        style="color: white; background-color: #FBC02D; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 6px; padding: 8px 15px; border-radius: 50px; font-size: 0.95em; transition: opacity 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        style="color: white; background-color: #FBC02D; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 6px; padding: 8px 15px; border-radius: 50px; font-size: 1.0em; transition: opacity 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <img src="photos/google-docs.png" alt="Icon" style="width: 18px; height: 18px; object-fit: contain; filter: brightness(0) invert(1);"> 
           CV
       </a>
 
       <a href="mailto:hpchen@utexas.edu" target="_blank" 
-        style="color: white; background-color: #43A047; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 6px; padding: 8px 15px; border-radius: 50px; font-size: 0.95em; transition: opacity 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        style="color: white; background-color: #43A047; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 6px; padding: 8px 15px; border-radius: 50px; font-size: 1.0em; transition: opacity 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <img src="photos/mail.png" alt="Icon" style="width: 18px; height: 18px; object-fit: contain; filter: brightness(0) invert(1);">
           Email
       </a>
 
       <a href="https://www.name-coach.com/hsin-pei-chen-74e4f5c1-32b1-4295-a372-db0a15b96573" target="_blank" 
-        style="color: white; background-color: #1E88E5; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 6px; padding: 8px 15px; border-radius: 50px; font-size: 0.95em; transition: opacity 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        style="color: white; background-color: #1E88E5; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 6px; padding: 8px 15px; border-radius: 50px; font-size: 1.0em; transition: opacity 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <img src="photos/wave-sound.png" alt="Icon" style="width: 18px; height: 18px; object-fit: contain; filter: brightness(0) invert(1);"> 
           My Name
       </a>
 
       <a href="https://github.com/hsinpeichen" target="_blank" 
-        style="color: white; background-color: #8E24AA; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 6px; padding: 8px 15px; border-radius: 50px; font-size: 0.95em; transition: opacity 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        style="color: white; background-color: #8E24AA; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 6px; padding: 8px 15px; border-radius: 50px; font-size: 1.0em; transition: opacity 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <img src="photos/GitHub_logo.png" alt="Icon" style="width: 18px; height: 18px; object-fit: contain; filter: brightness(0) invert(1);"> 
           GitHub
       </a>
