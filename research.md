@@ -270,8 +270,7 @@ title: Research
 
     <a href="https://iopscience.iop.org/article/10.3847/1538-4357/acc9af" class="paper-btn" target="_blank"> View Paper
     </a>
-  </div>
-</div>
+
 
 <div class="custom-footer">
   <p>© 2026 Hsin-Pei Chen | Last updated: {{ site.time | date: "%B %d, %Y" }}</p>
