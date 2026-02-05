@@ -228,7 +228,7 @@ title: Research
   </div>
 
   <div class="research-content">
-    <h3>Synthetic Observations of Cosmic Ray Tracers with STARFORGE Simulations</h3>
+    <h3>Synthetic Observations of Cosmic-Ray Tracers with STARFORGE Simulations</h3>
 
     <img src="photos/research-starforge.webp" alt="A snapshot of STARFORGE simulation." class="project-image">
     <p class="image-credit">Image credit: Northwestern University/UT Austin.</p>
