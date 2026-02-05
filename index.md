@@ -266,7 +266,7 @@ title: Home
 </div>
 
 <div class="custom-footer">
-  <p>© 2026 Hsin-Pei Chen | Last updated: {{ site.time | date: "%B %d, %Y" }}</p>
+  <p>© 2026 Hsin-Pei Chen | Last updated: {{ site.time | date: "%B %Y" }}</p>
 
   <p style="font-size: 0.9em;">
     All content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> unless otherwise noted.

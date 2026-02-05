@@ -290,7 +290,7 @@ title: Outreach
 </div>
 
 <div class="custom-footer">
-  <p>© 2026 Hsin-Pei Chen | Last updated: {{ site.time | date: "%B %d, %Y" }}</p>
+  <p>© 2026 Hsin-Pei Chen | Last updated: {{ site.time | date: "%B %Y" }}</p>
   
   <p class="footer-contact">
     <a href="mailto:hpchen@utexas.edu">Email</a> | 
