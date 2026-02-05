@@ -222,17 +222,31 @@ title: Home
   <div class="profile-text">
     <p>Hello! I am a graduate student in the <strong>Department of Astronomy at The University of Texas at Austin.</strong> My work focuses on how stars form and evolve in the Universe, supervised by Dr. Stella S. R. Offner.</p>
 
-    <p>I hold a M.S. degree from <strong>Institute of Astronomy, National Tsing Hua University</strong>, Taiwan, where I conducted astrophysical simulations of supernovae. At UT, my current project <strong>investigates the role of cosmic rays in star-forming clouds using <a href="https://starforge.space/" style="font-weight: bold; color: #bf5700;">STARFORGE</a> simulations.</strong></p>
+    <p>I hold a M.S. degree from <strong>Institute of Astronomy, National Tsing Hua University</strong>, Taiwan, where I conducted astrophysical simulations of supernovae. At UT, my current project <strong>investigates the role of cosmic rays in star-forming clouds using <a href="https://starforge.space/" target="_blank" style="font-weight: bold; color: #bf5700;">STARFORGE</a> simulations.</strong></p>
 
-    <p>I was born and raised in <a href="https://khh.travel/en/" style="font-weight: bold; color: #bf5700;">Kaohsiung</a>, a beautiful city in Southern Taiwan. And so was my dog, <a href="https://www.instagram.com/mumu_dog_0910/" style="font-weight: bold; color: #bf5700;">Mumu</a>! We moved to Austin together in the summer of 2024.</p>
+    <p>I was born and raised in <a href="https://khh.travel/en/" target="_blank" style="font-weight: bold; color: #bf5700;">Kaohsiung</a>, a beautiful city in Southern Taiwan. And so was my dog, <a href="https://www.instagram.com/mumu_dog_0910/" target="_blank" style="font-weight: bold; color: #bf5700;">Mumu</a>! We moved to Austin together in the summer of 2024.</p>
     
-    <div style="margin-top: 30px;">
-        <a href="https://scixplorer.org/public-libraries/7K4rh0uVRXaVBYfpganPeQ" target="_blank" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 8px;"> <img src="photos/scix_logo.webp" alt="Icon" style="width: 20px; height: 20px; object-fit: contain;">My Publications</a>
-        <a href="https://github.com/hsinpeichen" target="_blank" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold;">GitHub Profile</a>
-        <a href="mailto:hpchen@utexas.edu" target="_blank" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold;">Email Me</a>
-        <a href="https://www.name-coach.com/hsin-pei-chen-74e4f5c1-32b1-4295-a372-db0a15b96573" target="_blank" style="color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 5px;">
-        <span style="font-size: 1.2em;">🔊</span> My Name
-        </a>
+    <div style="margin-top: 30px; display: flex; flex-wrap: wrap; gap: 15px;">
+      <a href="https://scixplorer.org/public-libraries/7K4rh0uVRXaVBYfpganPeQ" target="_blank" 
+        style="color: white; background-color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px; border-radius: 50px; transition: background-color 0.3s, transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <img src="photos/scix_logo.webp" alt="Icon" style="width: 20px; height: 20px; object-fit: contain; filter: brightness(0) invert(1);"> 
+          My Publications
+      </a>
+
+      <a href="https://github.com/hsinpeichen" target="_blank" 
+        style="color: white; background-color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; padding: 10px 20px; border-radius: 50px; transition: background-color 0.3s, transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          GitHub Profile
+      </a>
+
+      <a href="mailto:hpchen@utexas.edu" target="_blank" 
+        style="color: white; background-color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; padding: 10px 20px; border-radius: 50px; transition: background-color 0.3s, transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          Email Me
+      </a>
+
+      <a href="https://www.name-coach.com/hsin-pei-chen-74e4f5c1-32b1-4295-a372-db0a15b96573" target="_blank" 
+        style="color: white; background-color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 5px; padding: 10px 20px; border-radius: 50px; transition: background-color 0.3s, transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <span style="font-size: 1.2em;">🔊</span> My Name
+      </a>
     </div>
   </div>
 </div>
