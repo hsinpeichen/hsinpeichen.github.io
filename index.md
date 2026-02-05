@@ -230,7 +230,7 @@ title: Home
       <a href="https://scixplorer.org/public-libraries/7K4rh0uVRXaVBYfpganPeQ" target="_blank" 
         style="color: white; background-color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px; border-radius: 50px; transition: background-color 0.3s, transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <img src="photos/scix_logo.webp" alt="Icon" style="width: 20px; height: 20px; object-fit: contain; filter: brightness(0) invert(1);"> 
-          My Publications
+          Publications
       </a>
 
       <a href="https://github.com/hsinpeichen" target="_blank" 
