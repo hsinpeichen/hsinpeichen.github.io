@@ -297,6 +297,10 @@ title: Outreach
   <p style="font-size: 0.9em;">
     All content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> unless otherwise noted.
   </p>
+
+  <p style="font-size: 0.8em; margin-top: 15px; color: #bbb;">
+    Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist" target="_blank" style="color: #bbb;">orderedlist</a>
+  </p>
 </div>
 
 <a href="#" class="back-to-top" title="Back to Top">↑</a>
