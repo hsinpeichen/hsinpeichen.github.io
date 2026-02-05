@@ -9,7 +9,7 @@ title: CV
     margin: 0 auto !important;
     padding: 0 20px !important;
     float: none !important;
-    display: flex;
+    display: block;
     flex-direction: column;
     min-height: 100vh;
   }
@@ -171,14 +171,31 @@ title: CV
   }
 
   footer {
-  position: relative !important;
-  bottom: auto !important;
-  left: auto !important;
-  width: 100% !important;
-  text-align: center !important;
-  padding: 40px 0 !important;
-  margin-top: 50px !important;
-  clear: both !important;
+    position: relative !important;
+    width: 100% !important;
+    text-align: center !important;
+    padding: 20px 0 !important;
+    margin-top: 60px !important;
+    clear: both !important;
+    font-size: 0.85em !important;
+    color: #999 !important;
+    line-height: 1.8;
+  }
+
+  footer a {
+    color: #999 !important;
+    text-decoration: underline;
+  }
+
+  footer a:hover {
+    color: #bf5700 !important;
+  }
+
+  footer p small {
+    display: block;
+    margin-top: 10px;
+    color: #999 !important;
+    font-size: 1em !important;
   }
 </style>
 
@@ -210,11 +227,6 @@ title: CV
 
 <footer>
   <p>© 2026 Hsin-Pei Chen | Last updated: Feb 2026</p>
-  <p>
-    Find me on 
-    <a href="https://github.com/hsinpeichen" target="_blank">GitHub</a> | 
-    <a href="mailto:hpchen@utexas.edu">Email</a>
-  </p>
   <p style="font-size: 0.8em; color: #999;">
     All content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> unless otherwise noted.
   </p>
