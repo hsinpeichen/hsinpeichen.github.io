@@ -163,6 +163,19 @@ title: Home
   }
 
   @media screen and (max-width: 768px) {
+    .profile-container {
+      flex-direction: column !important;
+      align-items: center !important;
+      text-align: center !important;
+      gap: 20px !important;
+    }
+
+    .profile-text {
+      text-align: center !important;
+      flex: 1 !important;
+      width: 100% !important;
+    }
+
     .back-to-top {
       bottom: 20px;
       right: 20px;
