@@ -217,11 +217,11 @@ title: CV
 
   <div class="cv-content">
     
-    <a href="files/CV_HPC_02042026.pdf" class="download-btn" target="_blank">Download Full CV (PDF)</a>
+    <a href="files/CV_HPC.pdf" class="download-btn" target="_blank">Download Full CV (PDF)</a>
 
     <div class="pdf-container">
       <iframe 
-        src="files/CV_HPC_02042026.pdf#toolbar=0" 
+        src="files/CV_HPC.pdf#toolbar=0" 
         class="pdf-iframe">
       </iframe>
     </div>

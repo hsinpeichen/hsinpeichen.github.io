@@ -238,7 +238,7 @@ title: Home
           Publications
       </a>
 
-      <a href="files/CV_HPC_02042026.pdf" target="_blank" 
+      <a href="files/CV_HPC.pdf" target="_blank" 
         style="color: white; background-color: #FBC02D; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 6px; padding: 8px 15px; border-radius: 50px; font-size: 1.0em; transition: opacity 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <img src="photos/google-docs.png" alt="Icon" style="width: 18px; height: 18px; object-fit: contain; filter: brightness(0) invert(1);"> 
           CV
