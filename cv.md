@@ -219,7 +219,6 @@ title: CV
         class="pdf-iframe">
       </iframe>
     </div>
-    
   </div>
 </div>
 
