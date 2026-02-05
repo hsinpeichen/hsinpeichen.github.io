@@ -235,7 +235,7 @@ title: Home
 
       <a href="https://github.com/hsinpeichen" target="_blank" 
         style="color: white; background-color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; padding: 10px 20px; border-radius: 50px; transition: background-color 0.3s, transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-          GitHub Profile
+          GitHub
       </a>
 
       <a href="mailto:hpchen@utexas.edu" target="_blank" 
