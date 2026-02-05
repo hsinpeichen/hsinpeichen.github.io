@@ -96,7 +96,7 @@ title: CV
     text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
   }
 
-    .back-to-top {
+  .back-to-top {
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -140,6 +140,7 @@ title: CV
     margin-top: 40px;
     flex-wrap: wrap;
   }
+  
   .cv-sidebar {
     flex: 1;
     min-width: 150px;

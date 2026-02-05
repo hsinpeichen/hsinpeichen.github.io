@@ -111,9 +111,6 @@ title: Research
     gap: 40px;
     margin-top: 40px;
     flex-wrap: wrap;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
   }
   .research-sidebar {
     flex: 1;
@@ -123,7 +120,7 @@ title: Research
     color: #333;
   }
   .research-content {
-    flex: 3;
+    flex: 4;
     min-width: 300px;
   }
   .project-image {

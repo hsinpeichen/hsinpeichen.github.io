@@ -100,9 +100,6 @@ title: Outreach
     gap: 40px;
     margin-top: 40px;
     flex-wrap: wrap;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .outreach-sidebar {
@@ -114,7 +111,7 @@ title: Outreach
   }
 
   .outreach-content {
-    flex: 3;
+    flex: 4;
     min-width: 300px;
   }
 
