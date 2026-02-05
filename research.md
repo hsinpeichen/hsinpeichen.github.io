@@ -102,8 +102,8 @@ title: Research
     gap: 40px;
     margin-top: 40px;
     flex-wrap: wrap;
-    max-width: 1000px; 
-    margin-left: auto; 
+    max-width: 1000px;
+    margin-left: auto;
     margin-right: auto;
   }
   .research-sidebar {
