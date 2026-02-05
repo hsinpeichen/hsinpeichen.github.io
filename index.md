@@ -4,6 +4,7 @@ title: Home
 ---
 
 <style>
+  
   body > footer, 
   .wrapper footer {
     display: none !important;
@@ -30,6 +31,7 @@ title: Home
     float: none !important;
     flex: 1;
   }
+
   .header-nav {
     position: fixed;
     top: 0;
@@ -54,8 +56,9 @@ title: Home
     font-weight: bold;
     font-size: 1.2em;
   }
+
   .header-nav a:hover {
-  color: #ffcc00 !important;
+    color: #ffcc00 !important;
   }
 
   header {
@@ -203,6 +206,7 @@ title: Home
     color: #777 !important;
     text-decoration: underline;
   }
+
 </style>
 
 <div class="header-nav">
@@ -213,16 +217,18 @@ title: Home
 </div>
 
 <div class="profile-container">
-  <img src="photos/avatar.webp" loading="lazy" alt="Hsin-Pei Chen" class="profile-image">
+  <img src="photos/avatar.webp" alt="Hsin-Pei Chen's profile photo" class="profile-image">
   
   <div class="profile-text">
-    <p>I am a graduate student in the <strong>Department of Astronomy at The University of Texas at Austin, working with Dr. Stella Offner.</strong> My work focuses on how stars form and evolve in the Universe.</p>
+    <p>Hello! I am a graduate student in the <strong>Department of Astronomy at The University of Texas at Austin.</strong> My work focuses on how stars form and evolve in the Universe, supervised by Dr. Stella S. R. Offner.</p>
 
-    <p>I hold a M.S. degree from <strong>Institute of Astronomy, National Tsing Hua University</strong>, Taiwan, where I conducted astrophysical simulations of supernovae. At UT, my <strong>current project investigates the role of cosmic rays in star-forming clouds using STARFORGE simulations.</strong></p>
+    <p>I hold a M.S. degree from <strong>Institute of Astronomy, National Tsing Hua University</strong>, Taiwan, where I conducted astrophysical simulations of supernovae. At UT, my current project <strong>investigates the role of cosmic rays in star-forming clouds using <a href="https://starforge.space/" style="font-weight: bold; color: #bf5700;">STARFORGE</a> simulations.</strong></p>
 
-    <p>I was born and raised in Kaohsiung, a beautiful city in Southern Taiwan. And so was my dog, <a href="https://www.instagram.com/mumu_dog_0910/" style="font-weight: bold; color: #bf5700;">Mumu</a>! We moved to Austin together in the summer of 2024.</p>
+    <p>I was born and raised in <a href="https://khh.travel/en/" style="font-weight: bold; color: #bf5700;">Kaohsiung</a>, a beautiful city in Southern Taiwan. And so was my dog, <a href="https://www.instagram.com/mumu_dog_0910/" style="font-weight: bold; color: #bf5700;">Mumu</a>! We moved to Austin together in the summer of 2024.</p>
     
     <div style="margin-top: 30px;">
+        <a href="https://scholar.google.com/citations?user=52K9oPIAAAAJ" target="_blank" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold;">Google Scholar</a>
+        <a href="https://scixplorer.org/public-libraries/7K4rh0uVRXaVBYfpganPeQ" target="_blank" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 8px;"> <img src="photos/scix_logo.webp" alt="Icon" style="width: 20px; height: 20px; object-fit: contain;">My Publications</a>
         <a href="https://github.com/hsinpeichen" target="_blank" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold;">GitHub Profile</a>
         <a href="mailto:hpchen@utexas.edu" target="_blank" style="margin-right: 20px; color: #bf5700; text-decoration: none; font-weight: bold;">Email Me</a>
         <a href="https://www.name-coach.com/hsin-pei-chen-74e4f5c1-32b1-4295-a372-db0a15b96573" target="_blank" style="color: #bf5700; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 5px;">
