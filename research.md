@@ -4,12 +4,21 @@ title: Research
 ---
 
 <style>
+  .wrapper footer {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
   .wrapper {
     max-width: 1000px !important;
     margin: 0 auto !important;
     padding: 0 20px !important;
     float: none !important;
     display: block !important;
+    min-height: 0 !important;
   }
 
   section {
