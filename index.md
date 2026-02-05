@@ -224,7 +224,7 @@ title: Home
 
     <p>I hold a M.S. degree from <strong>Institute of Astronomy, National Tsing Hua University</strong>, Taiwan, where I conducted astrophysical simulations of supernovae. At UT, my current project <strong>investigates the role of cosmic rays in star-forming clouds using <a href="https://starforge.space/" target="_blank" style="font-weight: bold; color: #bf5700;">STARFORGE</a> simulations.</strong></p>
 
-    <p>I was born and raised in <a href="https://khh.travel/en/" target="_blank" style="font-weight: bold; color: #bf5700;">Kaohsiung</a>, a beautiful city in Southern Taiwan. And so was my dog, <a href="https://www.instagram.com/mumu_dog_0910/" target="_blank" style="font-weight: bold; color: #bf5700;">Mumu</a>! We moved to Austin together in the summer of 2024, and have together explored three national parks!</p>
+    <p>I was born and raised in <a href="https://khh.travel/en/" target="_blank" style="font-weight: bold; color: #bf5700;">Kaohsiung</a>, a beautiful city in Southern Taiwan. And so was my dog, <a href="https://www.instagram.com/mumu_dog_0910/" target="_blank" style="font-weight: bold; color: #bf5700;">Mumu</a>! We moved to Austin in the summer of 2024, and have together explored three national parks!</p>
     
     <div style="margin-top: 30px; display: flex; flex-wrap: wrap; gap: 10px;">
       <a href="https://scixplorer.org/public-libraries/7K4rh0uVRXaVBYfpganPeQ" target="_blank" 
