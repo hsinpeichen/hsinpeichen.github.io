@@ -274,7 +274,14 @@ title: Research
 </div>
 
 <div class="custom-footer">
-  <p>© 2026 Hsin-Pei Chen | Last updated: Feb 2026</p>
+  <p>© 2026 Hsin-Pei Chen | Last updated: {{ site.time | date: "%B %d, %Y" }}</p>
+  
+  <p class="footer-contact">
+    <a href="mailto:hpchen@utexas.edu">Email</a> | 
+    <a href="https://github.com/hsinpeichen" target="_blank">GitHub</a> | 
+    <a href="https://scixplorer.org/public-libraries/7K4rh0uVRXaVBYfpganPeQ" target="_blank">Publications</a>
+  </p>
+
   <p style="font-size: 0.9em;">
     All content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> unless otherwise noted.
   </p>
