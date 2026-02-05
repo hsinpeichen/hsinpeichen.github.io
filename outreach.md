@@ -262,6 +262,8 @@ title: Outreach
       During 2020-2022, I served as one of the directors at the Astronomy Club Union of Universities in Taiwan (ACUUT), an organization dedicated to supporting university astronomy clubs in Taiwan. Especially, during the solar eclipse in June 2020, I coordinated the national live-streaming program of ACUUT in collaboration with the Central Weather Bureau in Taiwan, ultimately attracting around 290,000 viewers. Through these experiences, I have acquired valuable skills in project organization, team leadership, and effective collaboration.
     </p>
 
+    <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
+
     <h3>Astronomy for the Public in Austin (2024-Current)</h3>
 
     <img src="photos/outreach-aotatx.webp" loading="lazy" alt="AoT in Austin" class="blog-image">
