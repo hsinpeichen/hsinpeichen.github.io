@@ -237,21 +237,13 @@ title: Outreach
   <div class="outreach-content">
     <h3>Astronomy Club Activities (2017-2020)</h3>
 
-    <img src="photos/outreach-nknuastrclub.webp" loading="lazy" alt="NKNU astro club" class="blog-image">
+    <img src="photos/outreach-nknuastrclub.webp" alt="NKNU astro club" class="blog-image">
 
     <p>
       I initiated the Astronomy Club at NKNU during my undergraduate years, recruited instructors and instrumental aids, and designed courses for astronomy and observation techniques. I also led the teaching segment at the NTHU StarKids Astronomy Camp, designed for high school students who are passionate about astronomy.
     </p>
 
-    <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
-
-    <h3>Astronomy Club Union of Universities in Taiwan (2020-2024)</h3>
-
     <img src="photos/outreach-starkids.webp" loading="lazy" alt="Starkids Camp" class="blog-image">
-
-    <p>
-      During 2020-2022, I served as one of the directors at the Astronomy Club Union of Universities in Taiwan (ACUUT), an organization dedicated to supporting university astronomy clubs in Taiwan. Especially, during the solar eclipse in June 2020, I coordinated the national live-streaming program of ACUUT in collaboration with the Central Weather Bureau in Taiwan, ultimately attracting around 290,000 viewers. Through these experiences, I have acquired valuable skills in project organization, team leadership, and effective collaboration.
-    </p>
 
     <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
 
