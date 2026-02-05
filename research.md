@@ -223,7 +223,7 @@ title: Research
     <h3>Synthetic Observations of Cosmic Ray Tracers with STARFORGE Simulations</h3>
 
     <img src="photos/research-starforge.webp" alt="A snapshot of STARFORGE simulation." class="project-image">
-    <p class="image-credit">Image credit: Northwestern University/UT Austin</p>
+    <p class="image-credit">Image credit: Northwestern University/UT Austin.</p>
 
     <p>
       Currently at UT Austin, as a member of Dr. Stella Offner's research group, my first two years of graduate study are dedicated to investigating the effects of cosmic rays in star-forming regions. Cosmic rays are a significant factor influencing various aspects of star formation, including chemical abundances, gas temperature, and star formation efficiencies. In this project, I will use numerical simulation data from STARFORGE (Fitz Axen et al. 2024) to examine how cosmic rays affect chemistry of star-forming clouds. My goal is to produce synthetic observations of cosmic ray tracers and to evaluate the accuracy of the CRIRs derived in molecular cloud observations.
