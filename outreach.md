@@ -235,7 +235,7 @@ title: Outreach
   <div class="outreach-content">
     <p>
       In addition to my academic pursuits, I have dedicated time to amateur astronomy clubs and activities in Taiwan, with the aim of sharing the wonders of the Universe with college students and the broader public.
-    <p>
+    </p>
     
     <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
 
