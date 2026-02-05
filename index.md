@@ -233,10 +233,10 @@ title: Home
           Publications
       </a>
 
-      <a href="https://github.com/hsinpeichen" target="_blank" 
-        style="color: white; background-color: #FBC02D; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; padding: 10px 20px; border-radius: 50px; transition: background-color 0.3s, transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-          <img src="photos/GitHub_logo.png" alt="Icon" style="width: 20px; height: 20px; object-fit: contain; filter: brightness(0) invert(1);"> 
-          GitHub
+      <a href="CV_HsinPeiChen.pdf" target="_blank" 
+        style="color: white; background-color: #FBC02D; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px; border-radius: 50px; transition: opacity 0.3s, transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <img src="photos/cv-icon.png" alt="Icon" style="width: 20px; height: 20px; object-fit: contain; filter: brightness(0) invert(1);"> 
+          View CV
       </a>
 
       <a href="mailto:hpchen@utexas.edu" target="_blank" 
@@ -249,6 +249,12 @@ title: Home
         style="color: white; background-color: #1E88E5; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 5px; padding: 10px 20px; border-radius: 50px; transition: background-color 0.3s, transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <img src="photos/wave-sound.png" alt="Icon" style="width: 20px; height: 20px; object-fit: contain; filter: brightness(0) invert(1);"> 
           My Name
+      </a>
+
+      <a href="https://github.com/hsinpeichen" target="_blank" 
+        style="color: white; background-color: #8E24AA; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; padding: 10px 20px; border-radius: 50px; transition: background-color 0.3s, transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <img src="photos/GitHub_logo.png" alt="Icon" style="width: 20px; height: 20px; object-fit: contain; filter: brightness(0) invert(1);"> 
+          GitHub
       </a>
     </div>
   </div>
