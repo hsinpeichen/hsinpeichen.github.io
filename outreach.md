@@ -282,11 +282,11 @@ title: Outreach
 </div>
 
 
-<footer>
+<div class="custom-footer">
   <p>© 2026 Hsin-Pei Chen | Last updated: Feb 2026</p>
-  <p style="font-size: 0.8em; color: #999;">
+  <p style="font-size: 0.9em;">
     All content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> unless otherwise noted.
   </p>
-</footer>
+</div>
 
 <a href="#" class="back-to-top" title="Back to Top">↑</a>
