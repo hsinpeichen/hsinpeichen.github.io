@@ -126,10 +126,6 @@ title: Home
     max-width: 800px;
   }
 
-  .profile-text strong {
-    color: #bf5700;
-  }
-
   .back-to-top {
     position: fixed;
     bottom: 30px;
