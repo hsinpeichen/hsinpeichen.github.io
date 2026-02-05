@@ -54,7 +54,7 @@ title: Home
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.webp') !important;
     background-size: cover !important;
     background-position: bottom !important;
-    padding: 60px 0 !important;
+    padding: 55px 0 !important;
     text-align: center !important;
     width: 100vw !important;
     position: relative !important;
