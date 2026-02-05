@@ -193,18 +193,20 @@ title: Research
   .custom-footer {
     display: block !important;
     width: 100% !important;
-    max-width: 100% !important;
     text-align: center !important;
     padding: 40px 0 !important;
-    margin: 40px auto 20px auto !important;
+    margin-top: 60px !important;
+    margin-bottom: 20px !important;
     clear: both !important;
     font-size: 0.85em !important;
     color: #999 !important;
     line-height: 1.8;
     border-top: 1px solid #eee;
-    position: static !important;
-    transform: none !important;
-    left: auto !important;
+  }
+
+  .custom-footer p {
+    text-align: center !important;
+    margin: 5px 0 !important;
   }
 
   .custom-footer a {
