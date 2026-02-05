@@ -9,9 +9,7 @@ title: CV
     margin: 0 auto !important;
     padding: 0 20px !important;
     float: none !important;
-    display: block;
-    flex-direction: column;
-    min-height: 100vh;
+    display: block !important;
   }
 
   section {

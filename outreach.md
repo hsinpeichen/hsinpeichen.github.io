@@ -9,9 +9,7 @@ title: Outreach
     margin: 0 auto !important;
     padding: 0 20px !important;
     float: none !important;
-    display: block;
-    flex-direction: column;
-    min-height: 100vh;
+    display: block !important;
   }
 
   section {
@@ -49,7 +47,6 @@ title: Outreach
   .header-nav a:hover {
   color: #ffcc00 !important;
   }
-
 
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('photos/website-bg.webp') !important;
