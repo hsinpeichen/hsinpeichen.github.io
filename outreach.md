@@ -202,7 +202,7 @@ title: Outreach
     font-size: 0.85em !important;
     color: #999 !important;
     line-height: 1.8;
-    border-top: 1px solid #eee; /* 加入淡灰色分割線，視覺上更整潔 */
+    border-top: 1px solid #eee;
   }
 
   .custom-footer a {
