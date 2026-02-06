@@ -11,7 +11,7 @@ title: PhD Student in Astronomy at UT Austin
 
     <p>I hold a M.S. degree from Institute of Astronomy, National Tsing Hua University, Taiwan, where I conducted astrophysical simulations of supernovae. At UT, my current project investigates the role of cosmic rays in star-forming clouds using <a href="https://starforge.space/" target="_blank" style="font-weight: bold; color: #bf5700;">STARFORGE</a> simulations.</p>
 
-    <p>I was born and raised in <a href="https://khh.travel/en/" target="_blank" style="font-weight: bold; color: #bf5700;">Kaohsiung</a>, a beautiful city in Southern Taiwan. And so was my dog, <a href="https://www.instagram.com/mumu_dog_0910/" target="_blank" style="font-weight: bold; color: #bf5700;">Mumu</a>! We moved to Austin in 2024 summer, and have together explored three US national parks!</p>
+    <p>I was born and raised in <a href="https://khh.travel/en/" target="_blank" style="font-weight: bold; color: #bf5700;">Kaohsiung</a>, a beautiful city in Southern Taiwan. And so was my dog, <a href="https://www.instagram.com/mumu_dog_0910/" target="_blank" style="font-weight: bold; color: #bf5700;">Mumu</a>! We’ve been in Austin since the summer of 2024 and have already visited three national parks together!</p>
     
     <div style="margin-top: 30px; display: flex; flex-wrap: wrap; gap: 10px;">
       <a href="https://scixplorer.org/public-libraries/7K4rh0uVRXaVBYfpganPeQ" target="_blank" 
