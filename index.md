@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: PhD Student in Astronomy at UT Austin
 ---
 
 <div class="profile-container">
