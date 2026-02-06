@@ -234,11 +234,13 @@ header ul, header p.view, header .buttons {
     padding: 0 10px !important;
   }
   .profile-text {
-    text-align: justify !important;
-    text-justify: inter-word;
+    text-align: left !important;
+    text-justify: none;
     width: 100% !important;
     max-width: 100% !important;
     padding: 0 !important;
+    font-size: 1.0em !important; 
+    line-height: 1.6;
   }
   .wrapper {
     padding: 0 20px !important;
@@ -258,7 +260,9 @@ header ul, header p.view, header .buttons {
   .research-content, .cv-content, .outreach-content {
     width: 100% !important;
     padding: 0 !important;
-    text-align: justify !important;
+    text-align: left !important;
+    font-size: 1.0em !important; 
+    line-height: 1.6;
   }
 }
 
