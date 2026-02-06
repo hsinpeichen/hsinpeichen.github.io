@@ -221,6 +221,11 @@ title: Home
   <a href="/outreach">Outreach</a>
 </div>
 
+<header>
+  <h1><a href="/">Hsin-Pei Chen</a></h1>
+  <p>PhD Student in Astrophysics at UT Austin</p>
+</header>
+
 <div class="profile-container">
   <img src="photos/avatar.webp" alt="Hsin-Pei Chen's profile photo" class="profile-image">
   

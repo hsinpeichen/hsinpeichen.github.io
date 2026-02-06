@@ -210,6 +210,11 @@ title: CV
   <a href="/outreach">Outreach</a>
 </div>
 
+<header>
+  <h1><a href="/">Hsin-Pei Chen</a></h1>
+  <p>PhD Student in Astrophysics at UT Austin</p>
+</header>
+
 <div class="cv-section">
   <div class="cv-sidebar">
     CV

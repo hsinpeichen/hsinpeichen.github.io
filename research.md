@@ -222,6 +222,11 @@ title: Research
   <a href="/outreach">Outreach</a>
 </div>
 
+<header>
+  <h1><a href="/">Hsin-Pei Chen</a></h1>
+  <p>PhD Student in Astrophysics at UT Austin</p>
+</header>
+
 <div class="research-section">
   <div class="research-sidebar">
     Research Overview
