@@ -25,7 +25,7 @@ title: Research
     <h3>Type Ia Supernova Progenitors and Surviving Companions within the Symbiotic Channel</h3>
 
     <figure>
-      <div style="max-width: 600px; margin: 30px 0; border: 1px solid #ddd; padding: 10px; background-color: #f9f9f9;">
+      <div style="max-width: 650px; margin: 30px 0; border: 1px solid #ddd; padding: 10px; background-color: #f9f9f9;">
         <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
             <iframe 
             src="https://www.youtube.com/embed/QSmuqBiAQ4c" 
