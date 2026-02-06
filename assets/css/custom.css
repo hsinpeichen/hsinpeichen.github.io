@@ -236,6 +236,7 @@ header ul, header p.view, header .buttons {
     margin: 20px 0 0 0 !important;
   }
   .profile-text {
+    margin-top: 25px !important;
     text-align: left !important;
     text-justify: none;
     width: 100% !important;
@@ -243,10 +244,17 @@ header ul, header p.view, header .buttons {
     padding: 0 !important;
     font-size: 1.0em !important; 
     line-height: 1.6;
-    margin: 40px 0 0 0 !important;
+  }
+  .profile-image-wrapper {
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
   }
   .wrapper {
     padding: 0 20px !important;
+  }
+  section {
+    padding-top: 30px !important;
+    padding-bottom: 40px !important;
   }
   .research-section, .cv-section, .outreach-section {
     flex-direction: column !important;
