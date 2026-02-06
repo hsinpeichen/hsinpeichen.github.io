@@ -9,8 +9,6 @@ title: CV
   </div>
 
   <div class="cv-content">
-    
-    <a href="files/CV_HPC.pdf" class="download-btn" target="_blank">Download Full CV (PDF)</a>
 
     <div class="pdf-container">
       <iframe 
@@ -18,5 +16,8 @@ title: CV
         class="pdf-iframe">
       </iframe>
     </div>
+
+    <a href="files/CV_HPC.pdf" class="download-btn" target="_blank">Download Full CV (PDF)</a>
+
   </div>
 </div>
