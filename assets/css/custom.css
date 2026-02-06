@@ -236,7 +236,7 @@ header ul, header p.view, header .buttons {
     margin: 20px 0 0 0 !important;
   }
   .profile-text {
-    margin-top: 25px !important;
+    margin-top: 15px !important;
     text-align: left !important;
     text-justify: none;
     width: 100% !important;
@@ -246,7 +246,6 @@ header ul, header p.view, header .buttons {
     line-height: 1.6;
   }
   .profile-image-wrapper {
-    margin-top: 10px !important;
     margin-bottom: 5px !important;
   }
   .wrapper {
