@@ -7,9 +7,9 @@ title: PhD Student in Astronomy at UT Austin
   <img src="photos/avatar.webp" alt="Hsin-Pei Chen's profile photo" class="profile-image">
   
   <div class="profile-text">
-    <p>Hello! I am a graduate student in the <strong>Department of Astronomy at The University of Texas at Austin.</strong> My work focuses on how stars form and evolve in the Universe, supervised by Dr. Stella S. R. Offner (doctorate) and Dr. Kuo-Chuan Pan (M.S.).</p>
+    <p>Hello! I am a graduate student in the Department of Astronomy at The University of Texas at Austin. My work focuses on how stars form and evolve in the Universe, supervised by Dr. Stella S. R. Offner (doctorate) and Dr. Kuo-Chuan Pan (M.S.).</p>
 
-    <p>I hold a M.S. degree from <strong>Institute of Astronomy, National Tsing Hua University</strong>, Taiwan, where I conducted astrophysical simulations of supernovae. At UT, my current project <strong>investigates the role of cosmic rays in star-forming clouds using <a href="https://starforge.space/" target="_blank" style="font-weight: bold; color: #bf5700;">STARFORGE</a> simulations.</strong></p>
+    <p>I hold a M.S. degree from Institute of Astronomy, National Tsing Hua University, Taiwan, where I conducted astrophysical simulations of supernovae. At UT, my current project investigates the role of cosmic rays in star-forming clouds using <a href="https://starforge.space/" target="_blank" style="font-weight: bold; color: #bf5700;">STARFORGE</a> simulations.</p>
 
     <p>I was born and raised in <a href="https://khh.travel/en/" target="_blank" style="font-weight: bold; color: #bf5700;">Kaohsiung</a>, a beautiful city in Southern Taiwan. And so was my dog, <a href="https://www.instagram.com/mumu_dog_0910/" target="_blank" style="font-weight: bold; color: #bf5700;">Mumu</a>! We moved to Austin in 2024 summer, and have together explored three US national parks!</p>
     
