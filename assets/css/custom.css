@@ -113,8 +113,8 @@ header ul, header p.view, header .buttons {
   text-decoration: none;
   color: #bf5700;
   font-weight: bold;
-  font-size: 1.2em;
-  transition: color 0.2s ease;
+  font-size: 1.3em;
+  transition: color 0.1s ease;
 }
 
 .header-nav a:hover {
