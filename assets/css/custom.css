@@ -66,6 +66,10 @@ left: 50% !important;
 transform: translateX(-50%) !important;
 margin: 0 0 20px 0 !important;
 float: none !important;
+border: none !important;
+border-bottom: none !important;
+box-shadow: none !important;
+margin-bottom: 0 !important;
 }
 
 header ul, header p.view, header .buttons {
@@ -75,6 +79,7 @@ display: none !important;
 header h1 {
 margin: 0 !important;
 width: 100% !important;
+border: none !important;
 }
 
 header h1 a {
