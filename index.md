@@ -3,12 +3,6 @@ layout: default
 title: Home
 ---
 
-<style>
-  
-
-
-</style>
-
 <div class="profile-container">
   <img src="photos/avatar.webp" alt="Hsin-Pei Chen's profile photo" class="profile-image">
   
@@ -52,5 +46,3 @@ title: Home
     </div>
   </div>
 </div>
-
-<a href="#" class="back-to-top" title="Back to Top">↑</a>
