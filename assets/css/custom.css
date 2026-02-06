@@ -266,10 +266,17 @@ header ul, header p.view, header .buttons {
 }
 
 .image-credit {
+  margin-bottom: 20px;
   font-size: 0.85em;
   color: #666;
   font-style: italic;
   margin-bottom: 20px;
+  text-align: right;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image-gallery {
