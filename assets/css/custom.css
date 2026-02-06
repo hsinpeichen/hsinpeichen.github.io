@@ -41,7 +41,7 @@ section {
   width: 100% !important;
   max-width: 100% !important;
   margin: 0 !important;
-  padding: 20px 0 !important;
+  padding: 20px 0 0 0 !important;
   float: none !important;
   flex: 1;
   border-bottom: none !important;
@@ -427,8 +427,8 @@ figcaption {
   display: block !important;
   width: 100% !important;
   text-align: center !important;
-  padding: 40px 0 !important;
-  margin-top: 60px !important;
+  padding: 20px 0 !important;
+  margin-top: 20px !important;
   margin-bottom: 20px !important;
   clear: both !important;
   font-size: 0.85em !important;
