@@ -58,11 +58,6 @@ section {
   border-bottom: none !important;
 }
 
-/* make sure horizontal lines are not displayed */
-hr {
-  display: none !important;
-}
-
 /* --- 3. Header --- */
 
 header {
