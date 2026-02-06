@@ -233,7 +233,7 @@ header ul, header p.view, header .buttons {
     text-align: center !important;
     gap: 15px !important;
     width: 100% !important;
-    margin: 20px 0 20px 0 !important;
+    margin: 20px 0 0 0 !important;
   }
   .profile-text {
     text-align: left !important;
@@ -243,6 +243,7 @@ header ul, header p.view, header .buttons {
     padding: 0 !important;
     font-size: 1.0em !important; 
     line-height: 1.6;
+    margin: 20px 0 0 0 !important;
   }
   .wrapper {
     padding: 0 20px !important;
