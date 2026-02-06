@@ -154,6 +154,18 @@ color: #777 !important;
 text-decoration: underline;
 }
 
+a {
+  color: #bf5700 !important;
+  text-decoration: none !important;
+  font-weight: normal !important;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline !important;
+  color: #8c4000 !important;
+}
+
 .profile-container {
 display: flex;
 flex-direction: row;
