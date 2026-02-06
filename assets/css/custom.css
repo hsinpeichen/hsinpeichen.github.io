@@ -366,6 +366,7 @@ figcaption {
   transform: translateY(3px);
   text-decoration: none !important;
   opacity: 0.9;
+  color: white !important;
 }
 
 .paper-btn:active {
