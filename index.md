@@ -7,7 +7,7 @@ title: PhD Student in Astronomy at UT Austin
   <img src="photos/avatar.webp" alt="Hsin-Pei Chen's profile photo" class="profile-image">
   
   <div class="profile-text">
-    <p>Hello! I am a graduate student in the Department of Astronomy at The University of Texas at Austin. My work focuses on how stars form and evolve in the Universe, supervised by Dr. Stella S. R. Offner (Doctorate) and Dr. Kuo-Chuan Pan (M.S.).</p>
+    <p>Hello! I am a graduate student in the Department of Astronomy at The University of Texas at Austin. My work focuses on star formation and evolution throughout the Universe, under the supervision of Dr. Stella S. R. Offner (PhD) and Dr. Kuo-Chuan Pan (Master's).</p>
 
     <p>I hold a M.S. degree from Institute of Astronomy, National Tsing Hua University, Taiwan, where I conducted astrophysical simulations of supernovae. At UT, my current project investigates the role of cosmic rays in star-forming clouds using <a href="https://starforge.space/" target="_blank" style="font-weight: bold; color: #bf5700;">STARFORGE</a> simulations.</p>
 
