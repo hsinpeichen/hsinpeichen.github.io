@@ -146,6 +146,17 @@ header ul, header p.view, header .buttons {
   width: 100%;
 }
 
+.profile-image {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
 .profile-image-wrapper {
   flex: 0 0 250px;
   display: flex;
@@ -195,23 +206,6 @@ header ul, header p.view, header .buttons {
   }
 }
 
-.profile-image {
-  width: 100%;
-  max-width: 220px;
-  height: auto;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.profile-image-wrapper {
-  flex: 3;
-  display: flex;
-  justify-content: center;
-}
-
 .research-section, .cv-section, .outreach-section {
   display: flex;
   gap: 40px;
@@ -225,7 +219,7 @@ header ul, header p.view, header .buttons {
 .research-sidebar, .cv-sidebar, .outreach-sidebar {
   flex: 1;
   min-width: 150px;
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-weight: bold;
   color: #333;
 }
