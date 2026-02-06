@@ -86,7 +86,7 @@ header h1, header h1 a {
   margin: 0 !important;
   color: #ffffff !important;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-  font-size: 1.5em !important;
+  font-size: 1.8em !important;
   font-weight: bold !important;
   pointer-events: none !important;
   width: 100% !important;
@@ -95,7 +95,7 @@ header h1, header h1 a {
 
 header p {
   color: #eeeeee !important;
-  font-size: 1.1em !important;
+  font-size: 1.3em !important;
   margin: 15px 0 0 0 !important;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
 }
