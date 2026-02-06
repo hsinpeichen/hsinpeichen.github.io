@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>{{ page.title }} | Hsin-Pei Chen</title>
@@ -11,15 +12,53 @@
   <meta name="description" content="Hsin-Pei Chen, Astronomy PhD student at UT Austin researching star formation and cosmic rays.">
 
   <meta property="og:title" content="{{ page.title }} | Hsin-Pei Chen">
-  <meta property="og:description" content="Astronomy PhD Student at UT Austin.">
+  <meta property="og:description" content="Astronomy PhD Student at UT Austin researching star formation and cosmic rays.">
   <meta property="og:image" content="https://hsinpeichen.com/photos/avatar.png">
   <meta property="og:url" content="https://hsinpeichen.com{{ page.url }}">
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  
+  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 </head>
 <body>
-  <div class="wrapper">
-    {{ content }}
+  
+  <div class="header-nav">
+    <a href="/">Home</a>
+    <a href="/research">Research</a>
+    <a href="/cv">CV</a>
+    <a href="/outreach">Outreach</a>
   </div>
+
+  <header>
+    <h1><a href="/">Hsin-Pei Chen</a></h1>
+    <p>PhD Student in Astrophysics at UT Austin</p>
+  </header>
+
+  <div class="wrapper">
+    <section>
+      {{ content }}
+    </section>
+
+    <div class="custom-footer">
+      <p>© 2026 Hsin-Pei Chen | Last updated: {{ site.time | date: "%B %Y" }}</p>
+
+      <p class="footer-contact">
+        <a href="mailto:hpchen@utexas.edu">Email</a> | 
+        <a href="https://github.com/hsinpeichen" target="_blank">GitHub</a> | 
+        <a href="https://scixplorer.org/public-libraries/7K4rh0uVRXaVBYfpganPeQ" target="_blank">Publications</a>
+      </p>
+
+      <p style="font-size: 0.9em;">
+        All content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> unless otherwise noted.
+      </p>
+
+      <p style="font-size: 0.8em; margin-top: 15px; color: #bbb;">
+        Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist" target="_blank" style="color: #bbb;">orderedlist</a>
+      </p>
+    </div>
+  </div>
+
+  <a href="#" class="back-to-top" title="Back to Top">↑</a>
+
 </body>
 </html>
