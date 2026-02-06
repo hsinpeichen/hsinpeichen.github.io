@@ -55,6 +55,11 @@ section {
   padding: 20px 0 !important;
   float: none !important;
   flex: 1;
+  border-bottom: none !important;
+}
+
+hr {
+  display: none !important;
 }
 
 /* --- 3. Header --- */
@@ -142,15 +147,21 @@ header ul, header p.view, header .buttons {
 }
 
 @media screen and (max-width: 768px) {
-.profile-container {
-flex-direction: column !important;
-align-items: center !important;
-text-align: center !important;
-gap: 20px !important;
+  .profile-container {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 20px !important;
+  }
+  .profile-text {
+    text-align: justify !important;
+    text-justify: inter-word;
+    width: 100% !important;
+  }
 }
 
 .profile-text {
-  text-align: center !important;
+  text-align: justify !important;
   flex: 1 !important;
   width: 100% !important;
 }
