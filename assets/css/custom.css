@@ -145,9 +145,9 @@ header ul, header p.view, header .buttons {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 40px;
+  gap: 60px;
   margin: 0 auto;
-  max-width: 1100px !important;
+  max-width: 1400px !important;
   width: 100%;
 }
 
@@ -216,7 +216,7 @@ header ul, header p.view, header .buttons {
   gap: 40px;
   margin-top: 40px;
   flex-wrap: wrap;
-  max-width: 1000px;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -306,7 +306,7 @@ header ul, header p.view, header .buttons {
 figure {
   margin: 30px auto !important;
   padding: 0 !important;
-  max-width: 1000px;
+  max-width: 1300px;
   text-align: center;
 }
 
