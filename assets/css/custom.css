@@ -219,6 +219,12 @@ width: 100% !important;
 }
 }
 
+.profile-text a[style*="background-color"] {
+  color: white !important;
+  font-weight: bold !important;
+  border-bottom: none !important;
+}
+
 .cv-section {
 display: flex;
 gap: 40px;
