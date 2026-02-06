@@ -215,7 +215,10 @@ header ul, header p.view, header .buttons {
 
 .research-content, .cv-content, .outreach-content {
   flex: 4;
+  font-size: 1.5em;
   min-width: 300px;
+  text-align: justify !important;
+  text-justify: inter-word;
 }
 
 /* --- 5. Image / file display --- */
@@ -356,7 +359,7 @@ figcaption {
   text-decoration: none !important;
   border-radius: 5px;
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 1.1em;
   transition: all 0.2s ease;
   position: relative;
   top: 0;
