@@ -26,17 +26,6 @@ a:hover {
   color: #8c4000 !important;
 }
 
-/* make sure the style of rainbow bottoms are fixed */
-.profile-text {
-  flex: 7;
-  font-size: 1.1em;
-  line-height: 1.6;
-  color: #333;
-  text-align: justify !important;
-  text-justify: inter-word;
-  max-width: 800px;
-}
-
 /* --- 2. Container  --- */
 
 .wrapper {
@@ -163,11 +152,14 @@ header ul, header p.view, header .buttons {
   justify-content: center;
 }
 
+/* make sure the style of rainbow bottoms are fixed */
 .profile-text {
-  text-align: justify !important;
   flex: 1 !important;
   font-size: 1.1em;
   line-height: 1.5;
+  color: #333;
+  text-align: justify !important;
+  text-justify: inter-word;
   width: 100% !important;
   margin-top: -5px;
 }
