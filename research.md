@@ -24,19 +24,21 @@ title: Research
 
     <h3>Type Ia Supernova Progenitors and Surviving Companions within the Symbiotic Channel</h3>
 
-    <div style="max-width: 600px; margin: 30px 0; border: 1px solid #ddd; padding: 10px; background-color: #f9f9f9;">
-      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-          <iframe 
-          src="https://www.youtube.com/embed/QSmuqBiAQ4c" 
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-          </iframe>
+    <figure>
+      <div style="max-width: 600px; margin: 30px 0; border: 1px solid #ddd; padding: 10px; background-color: #f9f9f9;">
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe 
+            src="https://www.youtube.com/embed/QSmuqBiAQ4c" 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+            </iframe>
+        </div>
+        <p style="margin: 10px 0 0 0; font-size: 0.9em; font-style: italic; color: #333; border-top: 1px solid #eee; padding-top: 10px;">
+          NASA video (1:20) explaining the single-degenerate scenario of Type Ia supernovae.
+        </p>
       </div>
-      <p style="margin: 10px 0 0 0; font-size: 0.9em; font-style: italic; color: #333; border-top: 1px solid #eee; padding-top: 10px;">
-        NASA video (1:20) explaining the single-degenerate scenario of Type Ia supernovae.
-      </p>
-    </div>
+    </figure>
 
     <p>
       After graduating in February 2023, I continued working as a Research Assistant at the National Center for Theoretical Science in Taiwan under the mentorship of Professor Pan. I embarked on my next project, exploring the systematic study of surviving companions in the symbiotic channel of type Ia supernovae. Our research revealed that the evolved companions could maintain their luminosity from before the SN explosion or transform into hot, bright dwarves. We have submitted the paper to ApJ, and it is currently under revision. Through these projects of simulations of supernovae, I have received solid training in conducting simulations using stellar evolution code MESA and hydrodynamics simulation code FLASH, and also have enhanced my abilities in problem solving, literature review, and scientific writing.
