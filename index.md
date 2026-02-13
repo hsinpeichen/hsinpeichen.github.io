@@ -14,7 +14,7 @@ title: PhD Student in Astronomy at UT Austin
     <p>I was born and raised in <a href="https://khh.travel/en/" target="_blank" style="font-weight: bold; color: #bf5700;">Kaohsiung</a>, a beautiful city in Southern Taiwan. And so was my dog, <a href="https://www.instagram.com/mumu_dog_0910/" target="_blank" style="font-weight: bold; color: #bf5700;">Mumu</a>! We’ve been in Austin since the summer of 2024 and have already visited three national parks together!</p>
     
     <div style="margin-top: 30px; display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="https://scixplorer.org/public-libraries/7K4rh0uVRXaVBYfpganPeQ" target="_blank" 
+      <a href="https://ui.adsabs.harvard.edu/user/libraries/7K4rh0uVRXaVBYfpganPeQ" target="_blank" 
         style="color: white; background-color: #E64A19; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 6px; padding: 8px 15px; border-radius: 50px; font-size: 1.0em; transition: opacity 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <img src="photos/scix_logo.webp" alt="Icon" style="width: 18px; height: 18px; object-fit: contain; filter: brightness(0) invert(1);"> 
           Publications
