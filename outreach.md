@@ -16,7 +16,7 @@ title: Outreach
     </figure>
 
     <p>
-      I initiated the Astronomy Club at National Kaohsiung Normal University (NKNU) during my undergraduate years, recruited instructors and instrumental aids, and designed courses for astronomy and observation techniques. I also led the teaching segment at the National Tsing Hua University (NTHU) StarKids Astronomy Camp, designed for high school students who are passionate about astronomy.
+      I initiated the Astronomy Club at the National Kaohsiung Normal University (NKNU) during my undergraduate years, recruited instructors and instrumental aids, and designed courses for astronomy and observation techniques. I also led the teaching segment at the National Tsing Hua University (NTHU) StarKids Astronomy Camp, designed for high school students who are passionate about astronomy.
     </p>
 
     <figure>
