@@ -4,7 +4,7 @@ title: PhD Student in Astronomy at UT Austin
 ---
 
 <div class="profile-container">
-  <img src="photos/avatar.webp" alt="Hsin-Pei Chen's profile photo" class="profile-image">
+  <img src="photos/avatar.jpeg" alt="Hsin-Pei Chen's profile photo" class="profile-image">
   
   <div class="profile-text">
     <p>Hello! I am a graduate student in the Department of Astronomy at The University of Texas at Austin. My work focuses on how stars form and evolve in the Universe, under the supervision of Dr. Stella S. R. Offner (PhD) and Dr. Kuo-Chuan Pan (Master's).</p>
